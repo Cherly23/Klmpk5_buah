@@ -50,6 +50,10 @@ public class Aziz_Nanas {
     public String getWarna() {
         return Warna;
     }
+    
+     public String getRasa() {
+        return Rasa;
+    }
 
     public double getBerat() {
         return Berat;
