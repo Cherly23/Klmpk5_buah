@@ -11,13 +11,14 @@ package klmpk5_buah;
 public class Klmpk5_buah {
     private String nama;
     private String warna;
-    private double berat;
+    private double berat, harga;
 
     
-    public Klmpk5_buah(String nama, String warna, double berat) {
+    public Klmpk5_buah(String nama, String warna, double berat, double harga) {
         this.nama = nama;
         this.warna = warna;
         this.berat = berat;
+        this.harga = harga;
     }  
     public String getNama(){
         return nama;
@@ -36,6 +37,12 @@ public class Klmpk5_buah {
     }
     public void setberat(double berat) {
         this.berat = berat;
+    }
+    public double getharga() {
+        return harga;
+    }
+    public void setharga(double harga) {
+        this.harga = harga;
     }
     public void infobuah() {
         System.out.println("Nama: "+ nama+",warna:"+ warna + ",Berat: "+ berat + "kg");
