@@ -10,34 +10,50 @@ package klmpk5_buah;
  */
 public class cherlyMangga {
     String nama_buah, warna, rasa;
-    double harga;
+    double harga, berat;
+    boolean kulit;
     
     public void setnama_buah(String nb){
-        this.nama_buah = nb;
+        this.nama_buah = nb;  
     }
+    public void setwarna(String wrn){
+        this.warna = wrn;  
+    }
+    public void setrasa(String rs){
+        this.rasa = rs;  
+    }
+    public void setharga(double hrg){
+        this.harga = hrg; 
+    }
+    public void setberat(double brt){
+        this.berat = brt;
+    }
+    public void setkulit(boolean klt){
+        this.kulit = klt;
+    }
+    
+    
+    
+    
     public String getnama_buah(){
         return this.nama_buah;
     }
-    
-    public void setwarna(String wrn){
-        this.warna = wrn;
-    }
     public String getwarna(){
         return this.warna;
-    }
-    
-    public void setrasa(String rs){
-        this.rasa = rs;
-    }
+    } 
     public String getrasa(){
         return this.rasa;
-    }
-    
-    public void setharga(double hrg){
-        this.harga = hrg;
     }
     public double getharga(){
         return this.harga;
     }
+    public boolean getkulit(){
+        return this.kulit;
+    }
+    public double getberat() {
+        return this.berat;
+    }
+    
+    
     
 }

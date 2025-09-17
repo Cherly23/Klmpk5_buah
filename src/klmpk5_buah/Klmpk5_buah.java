@@ -18,16 +18,18 @@ public class Klmpk5_buah {
         cherlyMangga buah = new cherlyMangga();
         
         buah.setnama_buah("Mangga");
-        System.out.println("Nama Buah    : " + buah.getnama_buah());
-        
         buah.setwarna("Hijau / Kuning");
-        System.out.println("Warna        : " + buah.getwarna());
-        
         buah.setrasa("Manis / Kecut");
-        System.out.println("Rasa         : " + buah.getrasa());
-        
         buah.setharga(10.000);
-        System.out.println("Harga per/kg : " + buah.getharga());
+        buah.setberat(5.6);
+        buah.setkulit(false);
+        
+        System.out.println("Nama Buah            : " + buah.getnama_buah());
+        System.out.println("Warna                : " + buah.getwarna());
+        System.out.println("Rasa                 : " + buah.getrasa());
+        System.out.println("Berat Buah           : " + buah.getberat());
+        System.out.println("Harga per/kg         : " + buah.getharga());
+        System.out.println("Kulit Dapat Dimakan  : " + buah.getkulit());
     }
     
 }
