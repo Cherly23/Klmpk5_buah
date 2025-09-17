@@ -16,9 +16,14 @@ public class Manggis {
         Manggis.rasa = "Manis dan tidak terlalu asam";
         Manggis.harga = 30000;
         Manggis.berat = 80;
-        Manggis.kulit = 
+        Manggis.kulit = false ;
                 
         System.out.println("Nama Buah : " + Manggis.nama_buah);
-    }
+        System.out.println("Warna Buah : " + Manggis.warna);
+        System.out.println("Rasa : " + Manggis.rasa);
+        System.out.println("Harga Buah perkilo : " + Manggis.harga);
+        System.out.println("Berat perbuah : " + Manggis.berat);
+        System.out.println("Kulit bisa dimakan  : " + (Manggis.kulit ? "Ya" : "Tidak"));
+        }
     
 }
