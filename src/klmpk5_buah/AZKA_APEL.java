@@ -39,5 +39,8 @@ public class AZKA_APEL {
     public void setberat(double brt){
         this.berat = brt;
     }
+    public double getberat() {
+        return this.berat;
+    }
     
 }
