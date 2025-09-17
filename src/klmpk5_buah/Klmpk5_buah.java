@@ -16,7 +16,7 @@ public class Klmpk5_buah {
     public static void main(String[] args) {
         Ichul_Manggis Manggis = new Ichul_Manggis();
         Manggis.nama_buah = "Manggis";
-        System.out.println("Nama Buah : Manggis");
+        System.out.println("Nama Buah :" + Manggis.nama_buah);
     }
     
 }
