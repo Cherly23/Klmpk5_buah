@@ -14,7 +14,9 @@ public class Klmpk5_buah {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Ichul_Manggis Manggis = new Ichul_Manggis();
+        Manggis.nama_buah = "Manggis";
+        System.out.println("Nama Buah : Manggis");
     }
     
 }
