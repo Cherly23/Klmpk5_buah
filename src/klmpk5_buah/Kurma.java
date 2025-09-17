@@ -11,5 +11,6 @@ package klmpk5_buah;
 public class Kurma {
     public static void main(String[] args) {
         Toni_Kurma Krm = new Toni_Kurma();
+        Krm.nama_Buah = "Kurma";
     }
 }
