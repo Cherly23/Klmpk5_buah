@@ -15,6 +15,19 @@ public class Klmpk5_buah {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        cherlyMangga buah = new cherlyMangga();
+        
+        buah.setnama_buah("Mangga");
+        System.out.println("Nama Buah    : " + buah.getnama_buah());
+        
+        buah.setwarna("Hijau / Kuning");
+        System.out.println("Warna        : " + buah.getwarna());
+        
+        buah.setrasa("Manis / Kecut");
+        System.out.println("Rasa         : " + buah.getrasa());
+        
+        buah.setharga(10.000);
+        System.out.println("Harga per/kg : " + buah.getharga());
     }
     
 }
