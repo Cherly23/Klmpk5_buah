@@ -15,6 +15,9 @@ public class Klmpk5_buah {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Cialin_Jeruk buah = new Cialin_Jeruk();
+        
+       buah.setnama_buah("Jeruk");
+       System.out.println("Nama Buah : " + buah.getnama_buah());
     }
-    
-}
+    }
