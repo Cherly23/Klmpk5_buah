@@ -11,8 +11,6 @@ package klmpk5_buah;
  */
 public class Aziz_Nanas {
     
-   public class Buah {
-    // Atribut (properties)
     String Nama_buah,Warna,Rasa;
     double Harga,Berat;
     boolean kulit;
@@ -37,7 +35,7 @@ public class Aziz_Nanas {
     public void setRasa(String Rasa) {
         this.Rasa = Rasa;}
     
-    public void setHarga(boolean Kulit) {
+    public void setKulit(boolean Kulit) {
         this.kulit = Kulit;
     }
 
@@ -67,5 +65,4 @@ public class Aziz_Nanas {
     }
 
    
-    }
 }
