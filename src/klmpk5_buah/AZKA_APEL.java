@@ -22,7 +22,7 @@ public class AZKA_APEL {
         return this.warna;    
     }
     public void setwarna(String wr){
-        this.rasa = wr;
+        this.warna = wr;
     }
     public void setkulit(boolean kl){
         this.kulit = kl;
