@@ -35,8 +35,7 @@ public class Aziz_Nanas {
     }
     
     public void setRasa(String Rasa) {
-        this.Rasa = Rasa;
-    }
+        this.Rasa = Rasa;}
     
     public void setHarga(boolean Kulit) {
         this.kulit = Kulit;
