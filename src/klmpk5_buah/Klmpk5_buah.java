@@ -9,17 +9,13 @@ package klmpk5_buah;
  * @author cherly
  */
 public class Klmpk5_buah {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         cherlyMangga buah = new cherlyMangga();
         
         buah.setnama_buah("Mangga");
-        buah.setwarna("Hijau / Kuning");
-        buah.setrasa("Manis / Kecut");
+        buah.setwarna("Hijau");
+        buah.setrasa("Manis");
         buah.setharga(8000);
         buah.setberat(5.6);
         buah.setkulit(false);
@@ -28,9 +24,9 @@ public class Klmpk5_buah {
         System.out.println("Nama Buah            : " + buah.getnama_buah());
         System.out.println("Warna                : " + buah.getwarna());
         System.out.println("Rasa                 : " + buah.getrasa());
-        System.out.println("Berat Buah           : " + buah.getberat());
-        System.out.println("Harga per/kg         : " + buah.getharga());
-        System.out.println("Kulit Dapat Dimakan  : " + buah.getkulit());
+        System.out.println("Berat Buah           : " + buah.getberat() + " Kg");
+        System.out.println("Harga per/kg         : Rp." + buah.getharga());
+        System.out.println("Kulit Bisa Dimakan   : " + (buah.kulit? "Ya" : "Tidak"));
         
         Aziz_Nanas nns = new Aziz_Nanas();
         
@@ -45,9 +41,9 @@ public class Klmpk5_buah {
         System.out.println("Nama Buah            : " + nns.getNama_buah());
         System.out.println("Warna                : " + nns.getWarna());
         System.out.println("Rasa                 : " + nns.getRasa());
-        System.out.println("Berat Buah           : " + nns.getBerat());
-        System.out.println("Harga per/kg         : " + nns.getHarga());
-        System.out.println("Kulit Dapat Dimakan  : " + nns.getKulit());
+        System.out.println("Berat Buah           : " + nns.getBerat() + " Kg");
+        System.out.println("Harga per/kg         : Rp." + nns.getHarga());
+        System.out.println("Kulit Bisa Dimakan   : " + (nns.kulit? "Ya" : "Tidak"));
         
         Toni_Kurma krm = new Toni_Kurma();
         
@@ -62,9 +58,9 @@ public class Klmpk5_buah {
         System.out.println("Nama Buah            : " + krm.getNamaBuah());
         System.out.println("Warna                : " + krm.getWarna());
         System.out.println("Rasa                 : " + krm.getRasa());
-        System.out.println("Berat Buah           : " + krm.getBerat());
-        System.out.println("Harga per/kg         : " + krm.getHarga());
-        System.out.println("Kulit Dapat Dimakan  : " + krm.getKulit());
+        System.out.println("Berat Buah           : " + krm.getBerat() + " Kg");
+        System.out.println("Harga per/kg         : Rp." + krm.getHarga());
+        System.out.println("Kulit Bisa Dimakan   : " + (krm.kulit? "Ya" : "Tidak"));
         
         Cialin_Jeruk jrk = new Cialin_Jeruk();
         
@@ -79,9 +75,9 @@ public class Klmpk5_buah {
         System.out.println("Nama Buah            : " + jrk.getnama_buah());
         System.out.println("Warna                : " + jrk.getwarna());
         System.out.println("Rasa                 : " + jrk.getrasa());
-        System.out.println("Berat Buah           : " + jrk.getberat());
-        System.out.println("Harga per/kg         : " + jrk.getharga());
-        System.out.println("Kulit Dapat Dimakan  : " + jrk.getkulit());
+        System.out.println("Berat Buah           : " + jrk.getberat() + " Kg");
+        System.out.println("Harga per/kg         : Rp." + jrk.getharga());
+        System.out.println("Kulit Bisa Dimakan   : " + (jrk.kulit? "Ya" : "Tidak"));
         
         Ichul_Manggis mgs = new Ichul_Manggis();
         
@@ -96,9 +92,9 @@ public class Klmpk5_buah {
         System.out.println("Nama Buah            : " + mgs.getnama_buah());
         System.out.println("Warna                : " + mgs.getwarna());
         System.out.println("Rasa                 : " + mgs.getrasa());
-        System.out.println("Berat Buah           : " + mgs.getberat());
-        System.out.println("Harga per/kg         : " + mgs.getharga());
-        System.out.println("Kulit Dapat Dimakan  : " + mgs.getkulit());
+        System.out.println("Berat Buah           : " + mgs.getberat() + " Kg");
+        System.out.println("Harga per/kg         : Rp." + mgs.getharga());
+        System.out.println("Kulit Bisa Dimakan   : " + (mgs.kulit? "Ya" : "Tidak"));
         
         AZKA_APEL apl = new AZKA_APEL();
         
@@ -113,9 +109,9 @@ public class Klmpk5_buah {
         System.out.println("Nama Buah            : " + apl.getnama_buah());
         System.out.println("Warna                : " + apl.getwarna());
         System.out.println("Rasa                 : " + apl.getrasa());
-        System.out.println("Berat Buah           : " + apl.getberat());
-        System.out.println("Harga per/kg         : " + apl.getharga());
-        System.out.println("Kulit Dapat Dimakan  : " + apl.getkulit());
+        System.out.println("Berat Buah           : " + apl.getberat() + " Kg");
+        System.out.println("Harga per/kg         : Rp." + apl.getharga());
+        System.out.println("Kulit Bisa Dimakan   : " + (apl.kulit? "Ya" : "Tidak"));
     }
     
 }
