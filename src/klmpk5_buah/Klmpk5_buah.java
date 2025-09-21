@@ -9,43 +9,26 @@ package klmpk5_buah;
  * @author cherly
  */
 public class Klmpk5_buah {
-    private String nama;
-    private String warna;
-    private double berat, harga;
-
+    String nama_buah,warna,rasa ;
+    double berat, harga ;
+    boolean kulit ;
     
-    public Klmpk5_buah(String nama, String warna, double berat, double harga) {
-        this.nama = nama;
-        this.warna = warna;
-        this.berat = berat;
-        this.harga = harga;
-    }  
-    public String getNama(){
-        return nama;
-    }
-    public void setNama(String nama) {
-        this.nama = nama;
-    }
-    public String getwarna() {
-        return warna;
-    }
-    public void setwarna(String warna){
-        this.warna = warna;
-    }
-    public double getBerat() {
-        return berat;
-    }
-    public void setberat(double berat) {
-        this.berat = berat;
-    }
-    public double getharga() {
-        return harga;
-    }
-    public void setharga(double harga) {
-        this.harga = harga;
-    }
-    public void infobuah() {
-        System.out.println("Nama: "+ nama+",warna:"+ warna + ",Berat: "+ berat + "kg");
+    public static void main (String[] args) {
+        AZKA_APEL APEL = new AZKA_APEL() ;
+        APEL.nama_buah = "APEL" ;
+        APEL.warna = "Merah" ;
+        APEL.rasa = "Manis dsn sedikit asam " ;
+        APEL.harga = 2000 ;
+        APEL.berat = 70 ;
+        APEL.kulit = true ;
+        
+        System.out.println("Nama Buah : " + APEL.nama_buah ) ;
+        System.out.println("Warna Buah : " + APEL.warna );
+        System.out.println("Rasa : " + APEL.rasa ) ;
+        System.out.println("Harga : " + APEL.harga ) ;
+        System.out.println("Berat : " + APEL.berat ) ;
+        System.out.println("kulit : " + APEL.kulit ) ;
+        
     }
         
     }

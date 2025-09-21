@@ -1,7 +1,7 @@
 package klmpk5_buah;
 
 public class AZKA_APEL {
-    private String nama_buah, rasa, warna;
+    String nama_buah, rasa, warna;
     boolean kulit;
     double harga, berat;
     
