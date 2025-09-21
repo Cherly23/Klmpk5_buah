@@ -4,10 +4,7 @@
  */
 package klmpk5_buah;
 
-/**
- *
- * @author cherly
- */
+
 public class cherlyMangga {
     String nama_buah, warna, rasa;
     double harga, berat;
