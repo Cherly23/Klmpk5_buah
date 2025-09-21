@@ -16,7 +16,7 @@ public class Klmpk5_buah {
         buah.setnama_buah("Mangga");
         buah.setwarna("Hijau");
         buah.setrasa("Manis");
-        buah.setharga(8000);
+        buah.setharga(55000);
         buah.setberat(250);
         buah.setkulit(false);
         
@@ -31,9 +31,9 @@ public class Klmpk5_buah {
         Aziz_Nanas nns = new Aziz_Nanas();
         
         nns.setNama_buah("Nanas");
-        nns.setWarna("Kuning");
+        nns.setWarna("Hijau Kekuningan");
         nns.setRasa("Manis");
-        nns.setHarga(10000);
+        nns.setHarga(15000);
         nns.setBerat(900);
         nns.setKulit(false);
         
@@ -50,7 +50,7 @@ public class Klmpk5_buah {
         krm.setNamaBuah("Kurma");
         krm.setWarna("Coklat Tua");
         krm.setRasa("Manis");
-        krm.setHarga(5000);
+        krm.setHarga(30000);
         krm.setBerat(8);
         krm.setKulit(true);
         
@@ -67,8 +67,8 @@ public class Klmpk5_buah {
         jrk.setnama_buah("Jeruk");
         jrk.setwarna("Kuning");
         jrk.setrasa("Manis");
-        jrk.setharga(7000);
-        jrk.setberat(120);
+        jrk.setharga(20000);
+        jrk.setberat(130);
         jrk.setkulit(false);
         
         System.out.println("\n=============== JERUK ================");
@@ -79,30 +79,30 @@ public class Klmpk5_buah {
         System.out.println("Harga per/kg         : Rp." + jrk.getharga());
         System.out.println("Kulit Bisa Dimakan   : " + (jrk.kulit? "Ya" : "Tidak"));
         
-        Ichul_Manggis mgs = new Ichul_Manggis();
+        Ichul_Manggis Manggis = new Ichul_Manggis();
         
-        mgs.setnama_buah("Manggis");
-        mgs.setwarna("Ungu");
-        mgs.setrasa("Manis");
-        mgs.setharga(12000);
-        mgs.setberat(100);
-        mgs.setkulit(false);
-        
-        System.out.println("\n=============== MANGGIS ==============");
-        System.out.println("Nama Buah            : " + mgs.getnama_buah());
-        System.out.println("Warna                : " + mgs.getwarna());
-        System.out.println("Rasa                 : " + mgs.getrasa());
-        System.out.println("Berat Buah           : " + mgs.getberat() + " gram");
-        System.out.println("Harga per/kg         : Rp." + mgs.getharga());
-        System.out.println("Kulit Bisa Dimakan   : " + (mgs.kulit? "Ya" : "Tidak"));
+        Manggis.nama_buah = "Manggis";
+        Manggis.warna = "Ungu tua";
+        Manggis.rasa = "Manis dan tidak terlalu asam";
+        Manggis.harga = 30000;
+        Manggis.berat = 80;
+        Manggis.kulit = false ;
+                
+        System.out.println("\n============== MANGGIS ==============");
+        System.out.println("Nama Buah           : " + Manggis.nama_buah);
+        System.out.println("Warna Buah          : " + Manggis.warna);
+        System.out.println("Rasa                : " + Manggis.rasa);
+        System.out.println("Berat perbuah       : " + Manggis.berat + " gram");
+        System.out.println("Harga Buah perkilo  : Rp." + Manggis.harga );
+        System.out.println("Kulit bisa dimakan  : " + (Manggis.kulit ? "Ya" : "Tidak"));
         
         AZKA_APEL apl = new AZKA_APEL();
         
         apl.setnama_buah("Apel");
         apl.setwarna("Merah");
         apl.setrasa("Manis");
-        apl.setharga(7000);
-        apl.setberat(150);
+        apl.setharga(30000);
+        apl.setberat(160);
         apl.setkulit(true);
         
         System.out.println("\n=============== APEL =================");
