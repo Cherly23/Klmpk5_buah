@@ -27,7 +27,7 @@ public class Klmpk5_buah {
         System.out.println("Rasa : " + APEL.rasa ) ;
         System.out.println("Harga : " + APEL.harga ) ;
         System.out.println("Berat : " + APEL.berat ) ;
-        System.out.println("kulit : " + APEL.kulit ) ;
+        System.out.println("Kulit Bisa Dimakan : " + (APEL.kulit ?"Ya" : "Tidak" )) ;
         
     }
         

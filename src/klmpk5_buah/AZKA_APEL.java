@@ -4,43 +4,42 @@ public class AZKA_APEL {
     String nama_buah, rasa, warna;
     boolean kulit;
     double harga, berat;
-    
-  
-    public void setnama_buah(String nb){
-        this.nama_buah = nb;
+
+    public String getNama_buah() {
+        return nama_buah;
     }
-    public String getnama_buah(){
-        return this.nama_buah;
+    public void setNama_buah(String nama_buah) {
+        this.nama_buah = nama_buah;
     }
-    public void setrasa(String sr){
-        this.rasa = sr; 
+    public String getRasa() {
+        return rasa;
     }
-    public String getrasa(){
-        return this.rasa;
+    public void setRasa(String rasa) {
+        this.rasa = rasa;
     }
-    public String getwarna(){
-        return this.warna;    
+    public String getWarna() {
+        return warna;
     }
-    public void setwarna(String wr){
-        this.rasa = wr;
+    public void setWarna(String warna) {
+        this.warna = warna;
     }
-    public void setkulit(boolean kl){
-        this.kulit = kl;
+    public boolean isKulit() {
+        return kulit;
     }
-    public boolean getkulit(){
-        return this.kulit;
+    public void setKulit(boolean kulit) {
+        this.kulit = kulit;
     }
-    public void setharga(double hrg){
-        this.harga = hrg;
+    public double getHarga() {
+        return harga;
     }
-    public double getharga(){
-        return this.harga;
+    public void setHarga(double harga) {
+        this.harga = harga;
     }
-    public void setberat(double brt){
-        this.berat = brt;
+    public double getBerat() {
+        return berat;
     }
-    public double getberat() {
-        return this.berat;
+    public void setBerat(double berat) {
+        this.berat = berat;
     }
-    
+     
 }
