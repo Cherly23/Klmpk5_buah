@@ -26,6 +26,7 @@ public class ApelFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         TNama_buah = new javax.swing.JLabel();
         TnamaBuah = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
@@ -73,7 +74,7 @@ public class ApelFrame extends javax.swing.JFrame {
                 TnamaBuahActionPerformed(evt);
             }
         });
-        getContentPane().add(TnamaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(124, 6, 210, -1));
+        getContentPane().add(TnamaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 210, 30));
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Output", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Poppins", 0, 12))); // NOI18N
         jPanel1.setOpaque(false);
@@ -90,7 +91,7 @@ public class ApelFrame extends javax.swing.JFrame {
         Rasa1.setForeground(new java.awt.Color(255, 255, 255));
         Rasa1.setText("RASA");
 
-        Berat1.setFont(new java.awt.Font("Poppins", 1, 14)); // NOI18N
+        Berat1.setFont(new java.awt.Font("Poppins", 1, 16)); // NOI18N
         Berat1.setForeground(new java.awt.Color(255, 255, 255));
         Berat1.setText("BERAT");
 
@@ -146,62 +147,68 @@ public class ApelFrame extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+            .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(Warna1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Nama_Buah1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Rasa1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(Onamabuah, javax.swing.GroupLayout.DEFAULT_SIZE, 192, Short.MAX_VALUE)
+                    .addComponent(Owarna)
+                    .addComponent(Orasa))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addComponent(Onamabuah, javax.swing.GroupLayout.PREFERRED_SIZE, 248, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGap(56, 56, 56)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Orasa, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Owarna, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Kulit1)
-                    .addComponent(Harga1)
-                    .addComponent(Berat1))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Oharga, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Okulit, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Oberat, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1)
-                .addGap(27, 27, 27))
+                            .addComponent(Harga1)
+                            .addComponent(Kulit1)
+                            .addComponent(Berat1))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Okulit, javax.swing.GroupLayout.DEFAULT_SIZE, 185, Short.MAX_VALUE)
+                            .addComponent(Oharga)
+                            .addComponent(Oberat)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButton1)))
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Nama_Buah1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Berat1)
-                    .addComponent(Onamabuah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Oberat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(Nama_Buah1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Oberat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(4, 4, 4)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(Onamabuah)
+                            .addComponent(Berat1))))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Warna1)
-                    .addComponent(Owarna, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Harga1)
-                    .addComponent(Oharga, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(Warna1)
+                        .addComponent(Owarna, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Oharga, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Harga1, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Rasa1)
-                    .addComponent(Orasa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Kulit1)
-                    .addComponent(Okulit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(jButton1))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(Orasa, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Kulit1))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(Rasa1)
+                            .addComponent(Okulit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton1)))
+                .addGap(20, 20, 20))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(69, 216, 740, 180));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 200, 720, 190));
 
         TWarna.setFont(new java.awt.Font("Poppins", 1, 17)); // NOI18N
         TWarna.setForeground(new java.awt.Color(255, 255, 255));
@@ -215,7 +222,7 @@ public class ApelFrame extends javax.swing.JFrame {
                 TwarnaActionPerformed(evt);
             }
         });
-        getContentPane().add(Twarna, new org.netbeans.lib.awtextra.AbsoluteConstraints(124, 74, 210, -1));
+        getContentPane().add(Twarna, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 70, 210, 30));
 
         TRasa.setFont(new java.awt.Font("Poppins", 1, 17)); // NOI18N
         TRasa.setForeground(new java.awt.Color(255, 255, 255));
@@ -229,7 +236,7 @@ public class ApelFrame extends javax.swing.JFrame {
                 TrasaActionPerformed(evt);
             }
         });
-        getContentPane().add(Trasa, new org.netbeans.lib.awtextra.AbsoluteConstraints(125, 139, 210, -1));
+        getContentPane().add(Trasa, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 140, 210, 30));
 
         TBerat.setFont(new java.awt.Font("Poppins", 1, 17)); // NOI18N
         TBerat.setForeground(new java.awt.Color(255, 255, 255));
@@ -239,7 +246,7 @@ public class ApelFrame extends javax.swing.JFrame {
         THarga.setFont(new java.awt.Font("Poppins", 1, 17)); // NOI18N
         THarga.setForeground(new java.awt.Color(255, 255, 255));
         THarga.setText("HARGA PER/KG ");
-        getContentPane().add(THarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(401, 77, 140, -1));
+        getContentPane().add(THarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 60, 140, 30));
 
         Tberat.setBackground(new java.awt.Color(242, 242, 242));
         Tberat.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
@@ -248,7 +255,7 @@ public class ApelFrame extends javax.swing.JFrame {
                 TberatActionPerformed(evt);
             }
         });
-        getContentPane().add(Tberat, new org.netbeans.lib.awtextra.AbsoluteConstraints(554, 6, 255, -1));
+        getContentPane().add(Tberat, new org.netbeans.lib.awtextra.AbsoluteConstraints(554, 6, 230, 30));
 
         Tharga.setBackground(new java.awt.Color(242, 242, 242));
         Tharga.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
@@ -257,12 +264,12 @@ public class ApelFrame extends javax.swing.JFrame {
                 ThargaActionPerformed(evt);
             }
         });
-        getContentPane().add(Tharga, new org.netbeans.lib.awtextra.AbsoluteConstraints(554, 74, 255, -1));
+        getContentPane().add(Tharga, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 60, 230, 30));
 
         TKulit.setFont(new java.awt.Font("Poppins", 1, 17)); // NOI18N
         TKulit.setForeground(new java.awt.Color(255, 255, 255));
         TKulit.setText("KULIT BISA DIMAKAN");
-        getContentPane().add(TKulit, new org.netbeans.lib.awtextra.AbsoluteConstraints(401, 142, 180, -1));
+        getContentPane().add(TKulit, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 120, 180, 30));
 
         Reset.setFont(new java.awt.Font("Pixel Operator", 1, 17)); // NOI18N
         Reset.setText("RESET");
@@ -271,7 +278,7 @@ public class ApelFrame extends javax.swing.JFrame {
                 ResetActionPerformed(evt);
             }
         });
-        getContentPane().add(Reset, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 180, 80, 30));
+        getContentPane().add(Reset, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 170, 80, 30));
 
         Tampill.setFont(new java.awt.Font("Pixel Operator", 1, 17)); // NOI18N
         Tampill.setText("TAMPIL");
@@ -280,8 +287,9 @@ public class ApelFrame extends javax.swing.JFrame {
                 TampillActionPerformed(evt);
             }
         });
-        getContentPane().add(Tampill, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 180, 90, 30));
+        getContentPane().add(Tampill, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 170, 90, 30));
 
+        buttonGroup1.add(RadioYa);
         RadioYa.setFont(new java.awt.Font("Segoe UI", 1, 17)); // NOI18N
         RadioYa.setForeground(new java.awt.Color(255, 255, 255));
         RadioYa.setText("YA");
@@ -290,8 +298,9 @@ public class ApelFrame extends javax.swing.JFrame {
                 RadioYaActionPerformed(evt);
             }
         });
-        getContentPane().add(RadioYa, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 140, -1, -1));
+        getContentPane().add(RadioYa, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 120, -1, -1));
 
+        buttonGroup1.add(RadioTidak);
         RadioTidak.setFont(new java.awt.Font("Segoe UI", 1, 17)); // NOI18N
         RadioTidak.setForeground(new java.awt.Color(255, 255, 255));
         RadioTidak.setText("TIDAK");
@@ -300,10 +309,10 @@ public class ApelFrame extends javax.swing.JFrame {
                 RadioTidakActionPerformed(evt);
             }
         });
-        getContentPane().add(RadioTidak, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 140, -1, -1));
+        getContentPane().add(RadioTidak, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 120, -1, -1));
 
-        BACKGROUND.setIcon(new javax.swing.ImageIcon(getClass().getResource("/klmpk5_buah/APLLE.png"))); // NOI18N
-        getContentPane().add(BACKGROUND, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 815, 400));
+        BACKGROUND.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/APLLE.png"))); // NOI18N
+        getContentPane().add(BACKGROUND, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 810, 400));
 
         pack();
         setLocationRelativeTo(null);
@@ -332,27 +341,25 @@ public class ApelFrame extends javax.swing.JFrame {
     private void TampillActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TampillActionPerformed
         AZKA_APEL apf = new AZKA_APEL();
         
-        try {
-            apf.setNama_buah(TNama_buah.getText());
-            apf.setWarna(TWarna.getText());
-            apf.setRasa(TRasa.getText());
-            apf.setBerat(Double.parseDouble(Tberat.getText()));
-            apf.setHarga(Double.parseDouble(Tharga.getText()));
+
  
             if (TnamaBuah.getText().isEmpty()) {
-                apf.setNama_buah(TnamaBuah.getText());
+                apf.setNama_buah("Tidak Diketahui");
             } else {
                 apf.setNama_buah(TnamaBuah.getText());
             }
             if (Twarna.getText().isEmpty()) {
+                apf.setWarna("Tidak Diketahui");
             } else {
                 apf.setWarna(Twarna.getText());
             }
             if (Trasa.getText().isEmpty()) {
+                apf.setRasa("Tidak Diketahui");
             } else {
                 apf.setRasa(Trasa.getText());
             }
             if (Tberat.getText().isEmpty()) {
+                apf.setBerat(0);
             } else {
                 apf.setBerat(Double.parseDouble(Tberat.getText()));
             }
@@ -363,22 +370,23 @@ public class ApelFrame extends javax.swing.JFrame {
             }
             
             
+            
             Onamabuah.setText(apf.getNama_buah());
             Owarna.setText(apf.getWarna());
             Orasa.setText(apf.getRasa());
             Oharga.setText(String.valueOf(apf.getHarga()));
             Oberat.setText(String.valueOf(apf.getBerat()));
   
-  
-           
             if (RadioYa.isSelected()) {
                 Okulit.setText("YA, Bisa Dimakan");
-            } else {
+            } else if (RadioTidak.isSelected()) {
                 Okulit.setText("Tidak, Kulit tidak bisa dimakan");
+            } else {
+                Okulit.setText("Tidak Diketahui");
             }
-        } catch (NumberFormatException numberFormatException) {
-            System.out.println("Error " + numberFormatException.getMessage());
-        }
+            
+        
+        
     }//GEN-LAST:event_TampillActionPerformed
 
     private void ResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ResetActionPerformed
@@ -392,6 +400,8 @@ public class ApelFrame extends javax.swing.JFrame {
         Orasa.setText(null) ;
         Oberat.setText(null) ;
         Oharga.setText(null) ;
+        Okulit.setText(null);
+        buttonGroup1.clearSelection();
     }//GEN-LAST:event_ResetActionPerformed
 
     private void RadioYaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RadioYaActionPerformed
@@ -487,6 +497,7 @@ public class ApelFrame extends javax.swing.JFrame {
     private javax.swing.JTextField Trasa;
     private javax.swing.JTextField Twarna;
     private javax.swing.JLabel Warna1;
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
