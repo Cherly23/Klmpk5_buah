@@ -41,7 +41,7 @@ public class NanasFrame extends javax.swing.JFrame {
         jHarga1 = new javax.swing.JLabel();
         tHarga1 = new javax.swing.JTextField();
         jKulit1 = new javax.swing.JLabel();
-        tTampil = new javax.swing.JTextField();
+        tKulit2 = new javax.swing.JTextField();
         jNamaBuah = new javax.swing.JLabel();
         tNamaBuah = new javax.swing.JTextField();
         jWarnaBuah = new javax.swing.JLabel();
@@ -58,12 +58,16 @@ public class NanasFrame extends javax.swing.JFrame {
         jTutup = new javax.swing.JButton();
         jYa = new javax.swing.JRadioButton();
         jTidak = new javax.swing.JRadioButton();
+        jLabel1 = new javax.swing.JLabel();
 
         jTextField1.setText("jTextField1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setIconImages(null);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Output"));
+        jPanel1.setOpaque(false);
 
         jNamaBuah1.setText("Nama Buah ");
 
@@ -107,9 +111,9 @@ public class NanasFrame extends javax.swing.JFrame {
 
         jKulit1.setText("Kulit Bisa Dimakan");
 
-        tTampil.addActionListener(new java.awt.event.ActionListener() {
+        tKulit2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tTampilActionPerformed(evt);
+                tKulit2ActionPerformed(evt);
             }
         });
 
@@ -141,7 +145,7 @@ public class NanasFrame extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                         .addComponent(jKulit1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(tTampil, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(tKulit2, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(86, 86, 86))
         );
         jPanel1Layout.setVerticalGroup(
@@ -169,53 +173,66 @@ public class NanasFrame extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jKulit1)
-                        .addComponent(tTampil, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(tKulit2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(tRasa1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jRasa1, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 660, -1));
+
         jNamaBuah.setText("Nama Buah ");
+        getContentPane().add(jNamaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 67, -1));
 
         tNamaBuah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tNamaBuahActionPerformed(evt);
             }
         });
+        getContentPane().add(tNamaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(116, 6, 151, -1));
 
         jWarnaBuah.setText("Warna Buah ");
+        getContentPane().add(jWarnaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, -1));
 
         tWarnaBuah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tWarnaBuahActionPerformed(evt);
             }
         });
+        getContentPane().add(tWarnaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(116, 40, 151, -1));
 
         jRasa.setText("Rasa");
+        getContentPane().add(jRasa, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 67, 22));
 
         tRasa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tRasaActionPerformed(evt);
             }
         });
+        getContentPane().add(tRasa, new org.netbeans.lib.awtextra.AbsoluteConstraints(116, 74, 151, -1));
 
         jBerat.setText("Berat");
+        getContentPane().add(jBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(304, 77, 42, -1));
 
         tBerat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tBeratActionPerformed(evt);
             }
         });
+        getContentPane().add(tBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(419, 74, 151, -1));
 
         jHarga.setText("Harga per/Kg");
+        getContentPane().add(jHarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(304, 43, -1, -1));
 
         tHarga.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tHargaActionPerformed(evt);
             }
         });
+        getContentPane().add(tHarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(419, 40, 151, -1));
 
         jKulit.setText("Kulit Bisa Dimakan");
+        getContentPane().add(jKulit, new org.netbeans.lib.awtextra.AbsoluteConstraints(304, 9, -1, -1));
 
         jTampil.setText("Tampil");
         jTampil.addActionListener(new java.awt.event.ActionListener() {
@@ -223,6 +240,7 @@ public class NanasFrame extends javax.swing.JFrame {
                 jTampilActionPerformed(evt);
             }
         });
+        getContentPane().add(jTampil, new org.netbeans.lib.awtextra.AbsoluteConstraints(588, 135, -1, -1));
 
         jReset.setText("Reset");
         jReset.addActionListener(new java.awt.event.ActionListener() {
@@ -230,105 +248,25 @@ public class NanasFrame extends javax.swing.JFrame {
                 jResetActionPerformed(evt);
             }
         });
+        getContentPane().add(jReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(498, 135, -1, -1));
 
         jTutup.setText("Tutup");
+        jTutup.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTutupActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(598, 343, -1, -1));
 
         jYa.setText("Ya");
+        getContentPane().add(jYa, new org.netbeans.lib.awtextra.AbsoluteConstraints(419, 7, -1, -1));
 
         jTidak.setText("Tidak");
+        getContentPane().add(jTidak, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 7, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(jKulit)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(jYa)
-                                        .addGap(36, 36, 36)
-                                        .addComponent(jTidak))
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                            .addComponent(jBerat)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(tBerat, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                            .addComponent(jHarga)
-                                            .addGap(39, 39, 39)
-                                            .addComponent(tHarga, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                                .addComponent(jNamaBuah, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                .addComponent(jWarnaBuah, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                .addComponent(jRasa, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                                .addGroup(layout.createSequentialGroup()
-                                                    .addGap(43, 43, 43)
-                                                    .addComponent(tRasa, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                    .addComponent(tNamaBuah, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                        .addComponent(tWarnaBuah, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(0, 0, Short.MAX_VALUE)))
-                        .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jReset)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTampil)
-                                .addGap(32, 32, 32))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jTutup)
-                                .addGap(46, 46, 46))))))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jNamaBuah)
-                    .addComponent(tNamaBuah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jWarnaBuah)
-                    .addComponent(tWarnaBuah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRasa, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(tRasa))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jBerat)
-                    .addComponent(tBerat, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(tHarga, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jHarga))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jKulit)
-                    .addComponent(jYa)
-                    .addComponent(jTidak))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTampil)
-                    .addComponent(jReset))
-                .addGap(18, 18, 18)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jTutup)
-                .addGap(21, 21, 21))
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/WhatsApp Image 2025-09-28 at 10.42.54_b8f54e7f.jpg"))); // NOI18N
+        jLabel1.setOpaque(true);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, -1));
 
         pack();
         setLocationRelativeTo(null);
@@ -384,16 +322,16 @@ public class NanasFrame extends javax.swing.JFrame {
             Nns.setHarga(Double.parseDouble(tHarga.getText()));
         }
         
-        tNamaBuah.setText(Nns.getNama_buah());
+        tNamaBuah2.setText(Nns.getNama_buah());
         tWarna2.setText(Nns.getWarna());
         tRasa1.setText(Nns.getRasa());
         tBerat1.setText(String.valueOf(Nns.getBerat()));
         tHarga1.setText(String.valueOf(Nns.getHarga()));
         
         if (jYa.isSelected()){
-            jKulit.setText("Ya, Bisa dimakan");
+            tKulit2.setText("Ya, Bisa dimakan");
         }else{
-            jKulit.setText("Tidak, Kulit tidak Bisa dimakan");
+            tKulit2.setText("Tidak, Kulit tidak Bisa dimakan");
         }
     }//GEN-LAST:event_jTampilActionPerformed
 
@@ -417,9 +355,9 @@ public class NanasFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_tHarga1ActionPerformed
 
-    private void tTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tTampilActionPerformed
+    private void tKulit2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tKulit2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tTampilActionPerformed
+    }//GEN-LAST:event_tKulit2ActionPerformed
 
     private void jResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jResetActionPerformed
         // TODO add your handling code here:
@@ -433,7 +371,16 @@ public class NanasFrame extends javax.swing.JFrame {
         tRasa1.setText(null);
         tBerat1.setText(null);
         tHarga1.setText(null);
+        buttonGroup1.clearSelection();
+        tKulit2.setText(null);
+    
     }//GEN-LAST:event_jResetActionPerformed
+
+    private void jTutupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTutupActionPerformed
+        // TODO add your handling code here:
+        dispose();
+        
+    }//GEN-LAST:event_jTutupActionPerformed
 
     /**
      * @param args the command line arguments
@@ -478,6 +425,7 @@ public class NanasFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jHarga1;
     private javax.swing.JLabel jKulit;
     private javax.swing.JLabel jKulit1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jNamaBuah;
     private javax.swing.JLabel jNamaBuah1;
     private javax.swing.JPanel jPanel1;
@@ -495,11 +443,11 @@ public class NanasFrame extends javax.swing.JFrame {
     private javax.swing.JTextField tBerat1;
     private javax.swing.JTextField tHarga;
     private javax.swing.JTextField tHarga1;
+    private javax.swing.JTextField tKulit2;
     private javax.swing.JTextField tNamaBuah;
     private javax.swing.JTextField tNamaBuah2;
     private javax.swing.JTextField tRasa;
     private javax.swing.JTextField tRasa1;
-    private javax.swing.JTextField tTampil;
     private javax.swing.JTextField tWarna2;
     private javax.swing.JTextField tWarnaBuah;
     // End of variables declaration//GEN-END:variables
