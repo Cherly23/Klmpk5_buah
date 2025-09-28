@@ -270,8 +270,7 @@ public class Tonikurmaframe extends javax.swing.JFrame {
         getContentPane().add(rYa, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 110, 50, 30));
 
         jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/KURMA[1].png"))); // NOI18N
-        jLabel13.setText("jLabel13");
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/AKURMA.png"))); // NOI18N
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         pack();

@@ -301,12 +301,12 @@
         <Component class="javax.swing.JLabel" name="jLabel13">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/image/Backroound JFrame1.png"/>
+              <Image iconType="3" name="/Image/APanel.png"/>
             </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="-70" y="0" width="710" height="150"/>
+              <AbsoluteConstraints x="-30" y="0" width="710" height="150"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -437,7 +437,7 @@
     <Component class="javax.swing.JLabel" name="jLabel15">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/image/BP.png"/>
+          <Image iconType="3" name="/Image/AFrame.png"/>
         </Property>
       </Properties>
       <Constraints>

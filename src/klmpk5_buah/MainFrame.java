@@ -39,7 +39,7 @@ public class MainFrame extends javax.swing.JFrame {
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/WhatsApp Image 2025-09-27 at 16.33.01.jpeg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Menu Utama.jpeg"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 500));
 
         tkurma.setText("fkurma");

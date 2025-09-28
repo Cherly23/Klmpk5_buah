@@ -438,9 +438,8 @@
           <Font name="Segoe UI" size="12" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/image/KURMA[1].png"/>
+          <Image iconType="3" name="/Image/AKURMA.png"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jLabel13"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">

@@ -160,8 +160,8 @@ public class ManggaFrame extends javax.swing.JFrame {
         jLabel14.setText("Gram");
         jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 10, -1, 40));
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Backroound JFrame1.png"))); // NOI18N
-        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(-70, 0, 710, 150));
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/APanel.png"))); // NOI18N
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(-30, 0, 710, 150));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, 640, 150));
 
@@ -218,7 +218,7 @@ public class ManggaFrame extends javax.swing.JFrame {
         jLabel16.setText("Gram");
         getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 20, -1, 20));
 
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/BP.png"))); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/AFrame.png"))); // NOI18N
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         pack();
