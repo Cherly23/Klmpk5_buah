@@ -111,7 +111,7 @@ public class JerukFrame extends javax.swing.JFrame {
                 btnResetActionPerformed(evt);
             }
         });
-        getContentPane().add(btnReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 150, -1, -1));
+        getContentPane().add(btnReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 150, -1, -1));
 
         btnTampil.setBackground(new java.awt.Color(204, 204, 204));
         btnTampil.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -155,7 +155,7 @@ public class JerukFrame extends javax.swing.JFrame {
 
         btnTutup.setBackground(new java.awt.Color(204, 204, 204));
         btnTutup.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btnTutup.setText("Tutup");
+        btnTutup.setText("Back");
         btnTutup.setAutoscrolls(true);
         btnTutup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -235,7 +235,7 @@ public class JerukFrame extends javax.swing.JFrame {
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel14.setText("Gram");
-        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 30, -1, -1));
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 30, -1, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(32, 201, 640, 130));
 
@@ -248,7 +248,7 @@ public class JerukFrame extends javax.swing.JFrame {
 
         jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel13.setText("Gram");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 20, -1, -1));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 20, -1, -1));
 
         Baground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Jeruk.PNG.png"))); // NOI18N
         getContentPane().add(Baground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -361,7 +361,8 @@ public class JerukFrame extends javax.swing.JFrame {
 
     private void btnTutupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTutupActionPerformed
         // TODO add your handling code here:
-        System.exit(0);
+        dispose();
+        new MainFrame().setVisible(true);
     }//GEN-LAST:event_btnTutupActionPerformed
 
     private void Tkulit1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tkulit1ActionPerformed

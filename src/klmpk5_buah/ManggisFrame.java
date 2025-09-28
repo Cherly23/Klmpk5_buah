@@ -67,26 +67,32 @@ public class ManggisFrame extends javax.swing.JFrame {
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Nama Buah");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 80, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Warna Buah");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 80, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Rasa");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 40, 20));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Berat");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 50, 20));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Harga per/Kg");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 60, 110, -1));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Kulit bisa dimakan");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 100, 130, -1));
 
@@ -94,119 +100,77 @@ public class ManggisFrame extends javax.swing.JFrame {
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
         jPanel1.setToolTipText("");
         jPanel1.setOpaque(false);
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Nama Buah");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(11, 27, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Warna Buah");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(11, 67, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Rasa");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(11, 107, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Berat");
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(333, 27, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Harga per/Kg");
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(333, 67, -1, -1));
 
         jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("Kulit");
+        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(333, 107, -1, -1));
 
-        tNamaBuah1.setBackground(new java.awt.Color(255, 255, 255));
+        tNamaBuah1.setForeground(new java.awt.Color(255, 255, 255));
         tNamaBuah1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tNamaBuah1ActionPerformed(evt);
             }
         });
+        jPanel1.add(tNamaBuah1, new org.netbeans.lib.awtextra.AbsoluteConstraints(95, 24, 195, -1));
 
-        tWarnaBuah1.setBackground(new java.awt.Color(255, 255, 255));
+        tWarnaBuah1.setForeground(new java.awt.Color(255, 255, 255));
         tWarnaBuah1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tWarnaBuah1ActionPerformed(evt);
             }
         });
+        jPanel1.add(tWarnaBuah1, new org.netbeans.lib.awtextra.AbsoluteConstraints(99, 64, 191, -1));
 
-        tRasa1.setBackground(new java.awt.Color(255, 255, 255));
+        tRasa1.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel1.add(tRasa1, new org.netbeans.lib.awtextra.AbsoluteConstraints(99, 104, 191, -1));
 
-        tBerat1.setBackground(new java.awt.Color(255, 255, 255));
+        tBerat1.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel1.add(tBerat1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 24, 146, -1));
 
-        tHarga1.setBackground(new java.awt.Color(255, 255, 255));
+        tHarga1.setForeground(new java.awt.Color(255, 255, 255));
         tHarga1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tHarga1ActionPerformed(evt);
             }
         });
+        jPanel1.add(tHarga1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 64, 195, -1));
 
-        tKulit.setBackground(new java.awt.Color(255, 255, 255));
+        tKulit.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel1.add(tKulit, new org.netbeans.lib.awtextra.AbsoluteConstraints(438, 104, 197, -1));
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("Gram");
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(598, 27, -1, -1));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addGap(18, 18, 18)
-                        .addComponent(tNamaBuah1, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel8)
-                            .addComponent(jLabel9))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(tWarnaBuah1)
-                            .addComponent(tRasa1))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel12)
-                        .addGap(78, 78, 78)
-                        .addComponent(tKulit))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel10)
-                            .addComponent(jLabel11))
-                        .addGap(30, 30, 30)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(tHarga1, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(tBerat1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel14)
-                                .addContainerGap())))))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel10)
-                    .addComponent(tNamaBuah1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(tBerat1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel14))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8)
-                    .addComponent(jLabel11)
-                    .addComponent(tWarnaBuah1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(tHarga1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel9)
-                    .addComponent(jLabel12)
-                    .addComponent(tRasa1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(tKulit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(20, Short.MAX_VALUE))
-        );
-
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 640, -1));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 650, 150));
 
         jReset.setBackground(new java.awt.Color(204, 0, 51));
         jReset.setText("Reset");
@@ -215,39 +179,48 @@ public class ManggisFrame extends javax.swing.JFrame {
                 jResetActionPerformed(evt);
             }
         });
-        getContentPane().add(jReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 130, 60, 20));
+        getContentPane().add(jReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 130, 60, 30));
 
         jTampil.setBackground(new java.awt.Color(153, 204, 255));
-        jTampil.setForeground(new java.awt.Color(0, 0, 0));
         jTampil.setText("Tampil");
         jTampil.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTampilActionPerformed(evt);
             }
         });
-        getContentPane().add(jTampil, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 130, 70, 20));
+        getContentPane().add(jTampil, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 130, 70, 30));
 
         jTutup.setBackground(new java.awt.Color(204, 0, 51));
-        jTutup.setText("Tutup");
+        jTutup.setText("Back");
         jTutup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTutupActionPerformed(evt);
             }
         });
         getContentPane().add(jTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 350, 70, 30));
+
+        tNamaBuah.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(tNamaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 20, 148, -1));
 
+        tWarnaBuah.setForeground(new java.awt.Color(255, 255, 255));
         tWarnaBuah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tWarnaBuahActionPerformed(evt);
             }
         });
         getContentPane().add(tWarnaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 60, 148, -1));
+
+        tRasa.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(tRasa, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 100, 148, -1));
+
+        tBerat.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(tBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 20, 123, -1));
+
+        tHarga.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(tHarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 60, 160, -1));
 
         buttonGroup1.add(jRadioButtonYa);
+        jRadioButtonYa.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButtonYa.setText("Ya");
         jRadioButtonYa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -257,6 +230,7 @@ public class ManggisFrame extends javax.swing.JFrame {
         getContentPane().add(jRadioButtonYa, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 100, -1, -1));
 
         buttonGroup1.add(jRadioButtonTidak);
+        jRadioButtonTidak.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButtonTidak.setText("Tidak");
         jRadioButtonTidak.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -266,10 +240,11 @@ public class ManggisFrame extends javax.swing.JFrame {
         getContentPane().add(jRadioButtonTidak, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 100, 52, -1));
 
         jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Gram");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 30, -1, -1));
 
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/klmpk5_buah/ich mang.png"))); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/ich mang.png"))); // NOI18N
         getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         pack();

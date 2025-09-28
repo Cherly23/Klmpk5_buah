@@ -66,14 +66,14 @@ public class Tonikurmaframe extends javax.swing.JFrame {
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel1.setText("Nama Buah");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 100, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 100, -1));
 
         tNamaBuah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tNamaBuahActionPerformed(evt);
             }
         });
-        getContentPane().add(tNamaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 60, 162, -1));
+        getContentPane().add(tNamaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 110, 162, -1));
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Output", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 12))); // NOI18N
@@ -179,41 +179,47 @@ public class Tonikurmaframe extends javax.swing.JFrame {
                     .addComponent(tharga1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, 610, 130));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 610, 130));
 
         tWarnaBuah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tWarnaBuahActionPerformed(evt);
             }
         });
-        getContentPane().add(tWarnaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 100, 162, -1));
+        getContentPane().add(tWarnaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 162, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setText("Rasa");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 37, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, 37, -1));
 
         tRasa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tRasaActionPerformed(evt);
             }
         });
-        getContentPane().add(tRasa, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 140, 162, -1));
+        getContentPane().add(tRasa, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 190, 162, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setText("Berat");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 37, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 110, 37, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setText("Harga per/kg");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 150, 102, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 150, 102, -1));
 
         tBerat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tBeratActionPerformed(evt);
             }
         });
-        getContentPane().add(tBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 180, 162, -1));
-        getContentPane().add(tHarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 150, 162, -1));
+        getContentPane().add(tBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 110, 162, -1));
+
+        tHarga.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tHargaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(tHarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 150, 162, -1));
 
         bTampil.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         bTampil.setText("Tampil");
@@ -222,15 +228,15 @@ public class Tonikurmaframe extends javax.swing.JFrame {
                 bTampilActionPerformed(evt);
             }
         });
-        getContentPane().add(bTampil, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 190, -1, -1));
+        getContentPane().add(bTampil, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 220, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel6.setText("Kulit  Bisa Dimakan");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 120, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setText("Warna Buah");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, -1, -1));
 
         bresert.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         bresert.setText("Resert");
@@ -239,16 +245,16 @@ public class Tonikurmaframe extends javax.swing.JFrame {
                 bresertActionPerformed(evt);
             }
         });
-        getContentPane().add(bresert, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 190, -1, -1));
+        getContentPane().add(bresert, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 220, -1, -1));
 
         btutup.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btutup.setText("Tutup");
+        btutup.setText("Back");
         btutup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btutupActionPerformed(evt);
             }
         });
-        getContentPane().add(btutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 360, -1, -1));
+        getContentPane().add(btutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 370, -1, -1));
 
         buttonGroup1.add(rTidak);
         rTidak.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -260,14 +266,14 @@ public class Tonikurmaframe extends javax.swing.JFrame {
                 rTidakActionPerformed(evt);
             }
         });
-        getContentPane().add(rTidak, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 110, 70, 30));
+        getContentPane().add(rTidak, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 180, 70, 30));
 
         buttonGroup1.add(rYa);
         rYa.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         rYa.setText("Ya");
         rYa.setContentAreaFilled(false);
         rYa.setFocusPainted(false);
-        getContentPane().add(rYa, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 110, 50, 30));
+        getContentPane().add(rYa, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 180, 50, 30));
 
         jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/AKURMA.png"))); // NOI18N
@@ -348,7 +354,8 @@ public class Tonikurmaframe extends javax.swing.JFrame {
 
     private void btutupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btutupActionPerformed
         // TODO add your handling code here:
-        System.exit(0);
+        dispose();
+        new MainFrame().setVisible(true);
     }//GEN-LAST:event_btutupActionPerformed
 
     private void bresertActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bresertActionPerformed
@@ -370,6 +377,10 @@ public class Tonikurmaframe extends javax.swing.JFrame {
     private void rTidakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rTidakActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_rTidakActionPerformed
+
+    private void tHargaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tHargaActionPerformed
+         // TODO add your handling code here:
+    }//GEN-LAST:event_tHargaActionPerformed
 
     /**
      * @param args the command line arguments

@@ -43,9 +43,19 @@ public class MainFrame extends javax.swing.JFrame {
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 500));
 
         tkurma.setText("fkurma");
+        tkurma.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tkurmaActionPerformed(evt);
+            }
+        });
         getContentPane().add(tkurma, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 160, 180, 40));
 
         tJeruk.setText("fjeruk");
+        tJeruk.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tJerukActionPerformed(evt);
+            }
+        });
         getContentPane().add(tJeruk, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 160, 180, 40));
 
         tManggis.setText("fmanggis");
@@ -65,6 +75,11 @@ public class MainFrame extends javax.swing.JFrame {
         getContentPane().add(tApel, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 260, 170, 40));
 
         tNanas.setText("fnanas");
+        tNanas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tNanasActionPerformed(evt);
+            }
+        });
         getContentPane().add(tNanas, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 350, 180, 40));
 
         tMangga.setText("fmangga");
@@ -100,8 +115,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void tApelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tApelActionPerformed
         // TODO add your handling code here:
-        this.dispose();
-        new ApelFrame().setVisible(true);
+       
     }//GEN-LAST:event_tApelActionPerformed
 
     private void tManggisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tManggisActionPerformed
@@ -109,6 +123,24 @@ public class MainFrame extends javax.swing.JFrame {
         this.dispose();
         new ManggisFrame().setVisible(true);
     }//GEN-LAST:event_tManggisActionPerformed
+
+    private void tJerukActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tJerukActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+        new JerukFrame().setVisible(true);
+    }//GEN-LAST:event_tJerukActionPerformed
+
+    private void tkurmaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tkurmaActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+        new Tonikurmaframe().setVisible(true);
+    }//GEN-LAST:event_tkurmaActionPerformed
+
+    private void tNanasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tNanasActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+        new NanasFrame().setVisible(true);
+    }//GEN-LAST:event_tNanasActionPerformed
 
     /**
      * @param args the command line arguments
