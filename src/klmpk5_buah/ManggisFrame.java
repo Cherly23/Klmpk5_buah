@@ -4,9 +4,6 @@
  */
 package klmpk5_buah;
 
-import javax.swing.ButtonGroup;
-import javax.swing.JPanel;
-
 /**
  *
  * @author HP
@@ -29,90 +26,122 @@ public class ManggisFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        jNamaBuah1 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
         tNamaBuah1 = new javax.swing.JTextField();
-        jWarnaBuah1 = new javax.swing.JLabel();
         tWarnaBuah1 = new javax.swing.JTextField();
-        jRasa1 = new javax.swing.JLabel();
         tRasa1 = new javax.swing.JTextField();
-        jBerat1 = new javax.swing.JLabel();
         tBerat1 = new javax.swing.JTextField();
-        jHarga1 = new javax.swing.JLabel();
         tHarga1 = new javax.swing.JTextField();
-        jKulit1 = new javax.swing.JLabel();
-        tkulit = new javax.swing.JTextField();
-        jNamaBuah = new javax.swing.JLabel();
+        tKulit = new javax.swing.JTextField();
+        jLabel14 = new javax.swing.JLabel();
+        jReset = new javax.swing.JButton();
+        jTampil = new javax.swing.JButton();
+        jTutup = new javax.swing.JButton();
         tNamaBuah = new javax.swing.JTextField();
-        jWarnaBuah = new javax.swing.JLabel();
         tWarnaBuah = new javax.swing.JTextField();
-        jRasa = new javax.swing.JLabel();
         tRasa = new javax.swing.JTextField();
-        jBerat = new javax.swing.JLabel();
         tBerat = new javax.swing.JTextField();
-        jHarga = new javax.swing.JLabel();
         tHarga = new javax.swing.JTextField();
-        jKulit = new javax.swing.JLabel();
-        jTampilan = new javax.swing.JButton();
-        yaRadioButton = new javax.swing.JRadioButton();
-        TidakRadioButton2 = new javax.swing.JRadioButton();
-        jreset = new javax.swing.JButton();
-        ButtonTutup = new javax.swing.JButton();
+        jRadioButtonYa = new javax.swing.JRadioButton();
+        jRadioButtonTidak = new javax.swing.JRadioButton();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(700, 400));
+        setBackground(new java.awt.Color(255, 255, 255));
+        setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("output"));
+        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel2.setText("Nama Buah");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 80, -1));
 
-        jNamaBuah1.setText("Nama Buah ");
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel3.setText("Warna Buah");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 80, -1));
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel4.setText("Rasa");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 40, 20));
+
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel5.setText("Berat");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 50, 20));
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel6.setText("Harga per/Kg");
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 60, 110, -1));
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel7.setText("Kulit bisa dimakan");
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 100, 130, -1));
+
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "output", javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel1.setToolTipText("");
+        jPanel1.setOpaque(false);
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel1.setText("Nama Buah");
+
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel8.setText("Warna Buah");
+
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel9.setText("Rasa");
+
+        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel10.setText("Berat");
+
+        jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel11.setText("Harga per/Kg");
+
+        jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel12.setText("Kulit");
+
+        tNamaBuah1.setBackground(new java.awt.Color(255, 255, 255));
         tNamaBuah1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tNamaBuah1ActionPerformed(evt);
             }
         });
 
-        jWarnaBuah1.setText("Warna Buah ");
-
+        tWarnaBuah1.setBackground(new java.awt.Color(255, 255, 255));
         tWarnaBuah1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tWarnaBuah1ActionPerformed(evt);
             }
         });
 
-        jRasa1.setText("Rasa            ");
+        tRasa1.setBackground(new java.awt.Color(255, 255, 255));
 
-        tRasa1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tRasa1ActionPerformed(evt);
-            }
-        });
+        tBerat1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jBerat1.setText("Berat           ");
-
-        tBerat1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tBerat1ActionPerformed(evt);
-            }
-        });
-
-        jHarga1.setText("Harga per/kg");
-
+        tHarga1.setBackground(new java.awt.Color(255, 255, 255));
         tHarga1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tHarga1ActionPerformed(evt);
             }
         });
 
-        jKulit1.setText("Kulit bisa  dimakan");
+        tKulit.setBackground(new java.awt.Color(255, 255, 255));
 
-        tkulit.setAutoscrolls(false);
-        tkulit.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tkulitActionPerformed(evt);
-            }
-        });
+        jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel14.setText("Gram");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -120,212 +149,144 @@ public class ManggisFrame extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jNamaBuah1)
-                    .addComponent(jWarnaBuah1)
-                    .addComponent(jRasa1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(tWarnaBuah1, javax.swing.GroupLayout.DEFAULT_SIZE, 215, Short.MAX_VALUE)
-                    .addComponent(tNamaBuah1)
-                    .addComponent(tRasa1, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addGap(69, 69, 69)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jBerat1)
-                    .addComponent(jHarga1)
-                    .addComponent(jKulit1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(tHarga1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 186, Short.MAX_VALUE)
-                    .addComponent(tBerat1, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(tkulit))
-                .addGap(14, 14, 14))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addGap(18, 18, 18)
+                        .addComponent(tNamaBuah1, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel8)
+                            .addComponent(jLabel9))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(tWarnaBuah1)
+                            .addComponent(tRasa1))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel12)
+                        .addGap(78, 78, 78)
+                        .addComponent(tKulit))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel10)
+                            .addComponent(jLabel11))
+                        .addGap(30, 30, 30)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(tHarga1, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(tBerat1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel14)
+                                .addContainerGap())))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jNamaBuah1)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel10)
                     .addComponent(tNamaBuah1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jBerat1)
-                    .addComponent(tBerat1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(tBerat1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel14))
+                .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel8)
+                    .addComponent(jLabel11)
                     .addComponent(tWarnaBuah1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jWarnaBuah1)
-                    .addComponent(jHarga1)
                     .addComponent(tHarga1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel9)
+                    .addComponent(jLabel12)
                     .addComponent(tRasa1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jRasa1)
-                    .addComponent(jKulit1)
-                    .addComponent(tkulit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(67, 67, 67))
+                    .addComponent(tKulit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, 120));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 640, -1));
 
-        jNamaBuah.setText("Nama Buah ");
-        getContentPane().add(jNamaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 65, -1));
-
-        tNamaBuah.addActionListener(new java.awt.event.ActionListener() {
+        jReset.setBackground(new java.awt.Color(204, 0, 51));
+        jReset.setText("Reset");
+        jReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tNamaBuahActionPerformed(evt);
+                jResetActionPerformed(evt);
             }
         });
-        getContentPane().add(tNamaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 20, 210, -1));
+        getContentPane().add(jReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 130, 60, 20));
 
-        jWarnaBuah.setText("Warna Buah ");
-        getContentPane().add(jWarnaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
+        jTampil.setBackground(new java.awt.Color(153, 204, 255));
+        jTampil.setForeground(new java.awt.Color(0, 0, 0));
+        jTampil.setText("Tampil");
+        jTampil.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTampilActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTampil, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 130, 70, 20));
+
+        jTutup.setBackground(new java.awt.Color(204, 0, 51));
+        jTutup.setText("Tutup");
+        jTutup.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTutupActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 350, 70, 30));
+        getContentPane().add(tNamaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 20, 148, -1));
 
         tWarnaBuah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tWarnaBuahActionPerformed(evt);
             }
         });
-        getContentPane().add(tWarnaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 60, 210, -1));
+        getContentPane().add(tWarnaBuah, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 60, 148, -1));
+        getContentPane().add(tRasa, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 100, 148, -1));
+        getContentPane().add(tBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 20, 123, -1));
+        getContentPane().add(tHarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 60, 160, -1));
 
-        jRasa.setText("Rasa            ");
-        getContentPane().add(jRasa, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 100, -1));
-
-        tRasa.addActionListener(new java.awt.event.ActionListener() {
+        buttonGroup1.add(jRadioButtonYa);
+        jRadioButtonYa.setText("Ya");
+        jRadioButtonYa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tRasaActionPerformed(evt);
+                jRadioButtonYaActionPerformed(evt);
             }
         });
-        getContentPane().add(tRasa, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 100, 210, -1));
+        getContentPane().add(jRadioButtonYa, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 100, -1, -1));
 
-        jBerat.setText("Berat           ");
-        getContentPane().add(jBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 100, -1));
-
-        tBerat.addActionListener(new java.awt.event.ActionListener() {
+        buttonGroup1.add(jRadioButtonTidak);
+        jRadioButtonTidak.setText("Tidak");
+        jRadioButtonTidak.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tBeratActionPerformed(evt);
+                jRadioButtonTidakActionPerformed(evt);
             }
         });
-        getContentPane().add(tBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 140, 210, -1));
+        getContentPane().add(jRadioButtonTidak, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 100, 52, -1));
 
-        jHarga.setText("Harga per/kg");
-        getContentPane().add(jHarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 90, -1));
+        jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel13.setText("Gram");
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 30, -1, -1));
 
-        tHarga.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tHargaActionPerformed(evt);
-            }
-        });
-        getContentPane().add(tHarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 20, 180, -1));
-
-        jKulit.setText("Kulit bisa  dimakan");
-        getContentPane().add(jKulit, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 70, 100, -1));
-
-        jTampilan.setText("Tampil");
-        jTampilan.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTampilanActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jTampilan, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 120, -1, -1));
-
-        yaRadioButton.setText("Ya");
-        yaRadioButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                yaRadioButtonActionPerformed(evt);
-            }
-        });
-        getContentPane().add(yaRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 60, -1, -1));
-
-        TidakRadioButton2.setText("Tidak");
-        TidakRadioButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TidakRadioButton2ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(TidakRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 60, 52, -1));
-
-        jreset.setText("Reset");
-        jreset.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jresetActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jreset, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 120, -1, -1));
-
-        ButtonTutup.setText("Tutup");
-        ButtonTutup.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonTutupActionPerformed(evt);
-            }
-        });
-        getContentPane().add(ButtonTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 320, -1, -1));
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/klmpk5_buah/ich mang.png"))); // NOI18N
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 400));
 
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void tNamaBuahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tNamaBuahActionPerformed
+    private void jRadioButtonYaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonYaActionPerformed
         // TODO add your handling code here:
-        
-    }//GEN-LAST:event_tNamaBuahActionPerformed
+    }//GEN-LAST:event_jRadioButtonYaActionPerformed
+
+    private void jRadioButtonTidakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonTidakActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButtonTidakActionPerformed
 
     private void tWarnaBuahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tWarnaBuahActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_tWarnaBuahActionPerformed
-
-    private void tRasaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tRasaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tRasaActionPerformed
-
-    private void tBeratActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tBeratActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tBeratActionPerformed
-
-    private void tHargaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tHargaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tHargaActionPerformed
-
-    private void jTampilanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTampilanActionPerformed
-        Ichul_Manggis mgs = new Ichul_Manggis();
-        
-        if (tNamaBuah.getText().isEmpty()){
-            mgs.setnama_buah("Tidak diketahui");
-        }else {
-            mgs.setnama_buah(tNamaBuah.getText());
-        }
-        if (tWarnaBuah1.getText().isEmpty()){
-            mgs.setwarna("Tidak diketahui");
-        }else {
-            mgs.setwarna(tWarnaBuah1.getText());
-        };
-        if (tRasa.getText().isEmpty()){
-            mgs.setrasa("Tidak diketahui");
-        }else {
-            mgs.setrasa(tRasa.getText());
-        };
-        if (tBerat.getText().isEmpty()){
-            mgs.setberat(0);
-        }else {
-            mgs.setberat(Double.parseDouble(tBerat.getText()));
-        };
-        if (tHarga.getText().isEmpty()){
-            mgs.setharga(0);
-        }else {
-            mgs.setharga(Double.parseDouble(tHarga.getText()));
-        };
-        
-        tNamaBuah1.setText(mgs.getnama_buah());
-        tWarnaBuah1.setText(mgs.getwarna());
-        tRasa1.setText(mgs.getrasa());
-        tBerat1.setText(String.valueOf(mgs.getberat()));
-        tHarga1.setText(String.valueOf(mgs.getharga()));
-        
-        if (yaRadioButton.isSelected()){
-            tkulit.setText("Ya, Bisa dimakan");
-        }else {
-            tkulit.setText("Tidak, Kulit tidak bisa dimakan");
-        }
-        
-    }//GEN-LAST:event_jTampilanActionPerformed
 
     private void tNamaBuah1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tNamaBuah1ActionPerformed
         // TODO add your handling code here:
@@ -335,45 +296,73 @@ public class ManggisFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_tWarnaBuah1ActionPerformed
 
-    private void tRasa1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tRasa1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tRasa1ActionPerformed
-
-    private void tBerat1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tBerat1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tBerat1ActionPerformed
-
     private void tHarga1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tHarga1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_tHarga1ActionPerformed
 
-    private void tkulitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tkulitActionPerformed
+    private void jTutupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTutupActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tkulitActionPerformed
+        dispose();
+    }//GEN-LAST:event_jTutupActionPerformed
 
-    private void yaRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_yaRadioButtonActionPerformed
+    private void jResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jResetActionPerformed
         // TODO add your handling code here:
-        ButtonGroup group = new ButtonGroup();
-        group.add(yaRadioButton);
-    }//GEN-LAST:event_yaRadioButtonActionPerformed
-
-    private void TidakRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TidakRadioButton2ActionPerformed
-        // TODO add your handling code here:
-        ButtonGroup group = new ButtonGroup();
-        group.add(TidakRadioButton2);
-    }//GEN-LAST:event_TidakRadioButton2ActionPerformed
-
-    private void jresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jresetActionPerformed
         tNamaBuah.setText(null);
         tWarnaBuah.setText(null);
         tRasa.setText(null);
         tBerat.setText(null);
         tHarga.setText(null);
-    }//GEN-LAST:event_jresetActionPerformed
+        buttonGroup1.clearSelection();
+        tNamaBuah1.setText(null);
+        tWarnaBuah1.setText(null);
+        tRasa1.setText(null);
+        tBerat1.setText(null);
+        tHarga1.setText(null);
+        tKulit.setText(null);
+    }//GEN-LAST:event_jResetActionPerformed
 
-    private void ButtonTutupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonTutupActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonTutupActionPerformed
+    private void jTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTampilActionPerformed
+        Ichul_Manggis mgs = new Ichul_Manggis();
+        if (tNamaBuah.getText().isEmpty()){
+            mgs.setnama_buah("Tidak diketahui");
+        }else {
+            mgs.setnama_buah(tNamaBuah.getText());
+        }
+        if (tWarnaBuah.getText().isEmpty()){
+            mgs.setwarna("Tidak diketahui");
+        } else {
+            mgs.setwarna(tWarnaBuah.getText());
+        }
+        if (tRasa.getText().isEmpty()){
+            mgs.setrasa("Tidak diketahui");
+        }else {
+            mgs.setrasa(tRasa.getText());
+        }
+        if (tBerat.getText().isEmpty()){
+            mgs.setberat(0);
+        }else {
+            mgs.setberat(Double.parseDouble(tBerat.getText()));
+        }
+        if (tHarga.getText().isEmpty()){
+            mgs.setharga(0);
+        }else {
+            mgs.setharga(Double.parseDouble(tHarga.getText()));
+        }
+        
+        if (jRadioButtonYa.isSelected()){
+            tKulit.setText("Bisa dimakan");
+        }else if (jRadioButtonTidak.isSelected()){
+            tKulit.setText("Tidak bisa dimakan");
+        } else {
+            tKulit.setText("Tidak diketahui");
+        }
+        
+        tNamaBuah1.setText(mgs.getnama_buah());
+        tWarnaBuah1.setText(mgs.getwarna());
+        tRasa1.setText(mgs.getrasa());
+        tBerat1.setText(String.valueOf(mgs.getberat()));
+        tHarga1.setText(String.valueOf(mgs.getharga()));
+    }//GEN-LAST:event_jTampilActionPerformed
 
     /**
      * @param args the command line arguments
@@ -386,7 +375,7 @@ public class ManggisFrame extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
+                if ("Nimbus".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
@@ -405,40 +394,44 @@ public class ManggisFrame extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-               
                 new ManggisFrame().setVisible(true);
             }
-        });    }
+        });
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton ButtonTutup;
-    private javax.swing.JRadioButton TidakRadioButton2;
-    private javax.swing.JLabel jBerat;
-    private javax.swing.JLabel jBerat1;
-    private javax.swing.JLabel jHarga;
-    private javax.swing.JLabel jHarga1;
-    private javax.swing.JLabel jKulit;
-    private javax.swing.JLabel jKulit1;
-    private javax.swing.JLabel jNamaBuah;
-    private javax.swing.JLabel jNamaBuah1;
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JLabel jRasa;
-    private javax.swing.JLabel jRasa1;
-    private javax.swing.JButton jTampilan;
-    private javax.swing.JLabel jWarnaBuah;
-    private javax.swing.JLabel jWarnaBuah1;
-    private javax.swing.JButton jreset;
+    private javax.swing.JRadioButton jRadioButtonTidak;
+    private javax.swing.JRadioButton jRadioButtonYa;
+    private javax.swing.JButton jReset;
+    private javax.swing.JButton jTampil;
+    private javax.swing.JButton jTutup;
     private javax.swing.JTextField tBerat;
     private javax.swing.JTextField tBerat1;
     private javax.swing.JTextField tHarga;
     private javax.swing.JTextField tHarga1;
+    private javax.swing.JTextField tKulit;
     private javax.swing.JTextField tNamaBuah;
     private javax.swing.JTextField tNamaBuah1;
     private javax.swing.JTextField tRasa;
     private javax.swing.JTextField tRasa1;
     private javax.swing.JTextField tWarnaBuah;
     private javax.swing.JTextField tWarnaBuah1;
-    private javax.swing.JTextField tkulit;
-    private javax.swing.JRadioButton yaRadioButton;
     // End of variables declaration//GEN-END:variables
 }
