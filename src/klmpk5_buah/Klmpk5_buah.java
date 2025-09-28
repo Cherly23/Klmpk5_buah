@@ -5,38 +5,28 @@
 package klmpk5_buah;
 
 public class Klmpk5_buah {
-    public static void main(String[] args) {
-        // TODO code application logic here
-        Cialin_Jeruk jeruk = new Cialin_Jeruk();
-        jeruk.nama_buah = "Jeruk";
-        jeruk.warna = "Kuning";
-        jeruk.rasa = "Manis dan Asam";
-        jeruk.harga = 20000;
-        jeruk.berat = 1;
-        jeruk.kulit = false ;
+    String nama_buah,warna,rasa ;
+    double berat, harga ;
+    boolean kulit ;
+    
+    public static void main (String[] args) {
+        AZKA_APEL APEL = new AZKA_APEL() ;
+        APEL.nama_buah = "APEL" ;
+        APEL.warna = "Merah" ;
+        APEL.rasa = "Manis dsn sedikit asam " ;
+        APEL.harga = 2000 ;
+        APEL.berat = 70 ;
+        APEL.kulit = true ;
         
-        System.out.println("=====================================================");
-        System.out.println("                      DATA BUAH");
-        System.out.println("=====================================================");
+        System.out.println("Nama Buah : " + APEL.nama_buah ) ;
+        System.out.println("Warna Buah : " + APEL.warna );
+        System.out.println("Rasa : " + APEL.rasa ) ;
+        System.out.println("Harga : " + APEL.harga ) ;
+        System.out.println("Berat : " + APEL.berat ) ;
+        System.out.println("Kulit Bisa Dimakan : " + (APEL.kulit ?"Ya" : "Tidak" )) ;
         
-        jeruk.setnama_buah("Jeruk");
-        System.out.println("Nama Buah\t\t: " + jeruk.getnama_buah());
-        
-        jeruk.setwarna("Kuning");
-        System.out.println("Warna buah\t\t: " + jeruk.getwarna());
-        
-        jeruk.setrasa("Manis dan Asam");
-        System.out.println("Rasa buah\t\t: " + jeruk.getrasa());
-        
-        jeruk.setharga(20.000);
-        System.out.println("Harga buah per kilo\t: " + jeruk.getharga());
-        
-        jeruk.setberat(1);
-        System.out.println("Berat buah per kilo\t: " + jeruk.getberat());
-        
-        jeruk.setkulit(false);
-        System.out.println("kulit bisa dimakan?\t: " + (jeruk.kulit ? "Ya" : "Tidak"));
-        
-        System.out.println("=====================================================");
     }
+        
     }
+    
+
