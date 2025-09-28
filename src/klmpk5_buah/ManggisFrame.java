@@ -303,6 +303,7 @@ public class ManggisFrame extends javax.swing.JFrame {
     private void jTutupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTutupActionPerformed
         // TODO add your handling code here:
         dispose();
+        new MainFrame().setVisible(true);
     }//GEN-LAST:event_jTutupActionPerformed
 
     private void jResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jResetActionPerformed

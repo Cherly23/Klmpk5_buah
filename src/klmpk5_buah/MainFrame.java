@@ -49,6 +49,11 @@ public class MainFrame extends javax.swing.JFrame {
         getContentPane().add(tJeruk, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 160, 180, 40));
 
         tManggis.setText("fmanggis");
+        tManggis.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tManggisActionPerformed(evt);
+            }
+        });
         getContentPane().add(tManggis, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 260, 180, 40));
 
         tApel.setText("fapel");
@@ -98,6 +103,12 @@ public class MainFrame extends javax.swing.JFrame {
         this.dispose();
         new ApelFrame().setVisible(true);
     }//GEN-LAST:event_tApelActionPerformed
+
+    private void tManggisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tManggisActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+        new ManggisFrame().setVisible(true);
+    }//GEN-LAST:event_tManggisActionPerformed
 
     /**
      * @param args the command line arguments
