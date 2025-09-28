@@ -29,6 +29,7 @@ public class NanasFrame extends javax.swing.JFrame {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
         jTextField1 = new javax.swing.JTextField();
+        buttonGroup2 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jNamaBuah1 = new javax.swing.JLabel();
         tNamaBuah2 = new javax.swing.JTextField();
@@ -64,6 +65,7 @@ public class NanasFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setIconImages(null);
+        setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Output"));
@@ -258,15 +260,22 @@ public class NanasFrame extends javax.swing.JFrame {
         });
         getContentPane().add(jTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(598, 343, -1, -1));
 
+        buttonGroup1.add(jYa);
         jYa.setText("Ya");
-        getContentPane().add(jYa, new org.netbeans.lib.awtextra.AbsoluteConstraints(419, 7, -1, -1));
+        getContentPane().add(jYa, new org.netbeans.lib.awtextra.AbsoluteConstraints(419, 7, 70, -1));
 
+        buttonGroup1.add(jTidak);
         jTidak.setText("Tidak");
+        jTidak.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTidakActionPerformed(evt);
+            }
+        });
         getContentPane().add(jTidak, new org.netbeans.lib.awtextra.AbsoluteConstraints(482, 7, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/WhatsApp Image 2025-09-28 at 10.42.54_b8f54e7f.jpg"))); // NOI18N
         jLabel1.setOpaque(true);
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 400));
 
         pack();
         setLocationRelativeTo(null);
@@ -330,8 +339,10 @@ public class NanasFrame extends javax.swing.JFrame {
         
         if (jYa.isSelected()){
             tKulit2.setText("Ya, Bisa dimakan");
-        }else{
+        }else if (jTidak.isSelected()){
             tKulit2.setText("Tidak, Kulit tidak Bisa dimakan");
+        }else {
+            tKulit2.setText("Tidak diketahui");
         }
     }//GEN-LAST:event_jTampilActionPerformed
 
@@ -382,6 +393,10 @@ public class NanasFrame extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jTutupActionPerformed
 
+    private void jTidakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTidakActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTidakActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -419,6 +434,7 @@ public class NanasFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JLabel jBerat;
     private javax.swing.JLabel jBerat1;
     private javax.swing.JLabel jHarga;
