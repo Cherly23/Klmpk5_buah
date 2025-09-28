@@ -60,6 +60,7 @@ public class ApelFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 0, 204));
+        setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         TNama_buah.setFont(new java.awt.Font("Poppins", 1, 17)); // NOI18N
