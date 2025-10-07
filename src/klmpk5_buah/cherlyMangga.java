@@ -5,7 +5,7 @@
 package klmpk5_buah;
 
 
-public class cherlyMangga extends Buah_Class {
+public class cherlyMangga extends Buah_Class2 {
     String nama_buah;
     
     public void setnama_buah(String nb){
