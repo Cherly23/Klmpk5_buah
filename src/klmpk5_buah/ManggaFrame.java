@@ -258,31 +258,31 @@ public class ManggaFrame extends javax.swing.JFrame {
             mgf.setnama_buah(tNB.getText());
         }
         if (tWarna.getText().isEmpty()) {
-            mgf.setwarna("");
+            mgf.setWarna("");
         } else {
-            mgf.setwarna(tWarna.getText()); 
+            mgf.setWarna(tWarna.getText()); 
         }
         if (tRasa.getText().isEmpty()) {
-            mgf.setrasa("");
+            mgf.setRasa("");
         } else {
-            mgf.setrasa(tRasa.getText());
+            mgf.setRasa(tRasa.getText());
         }
         if (tBerat.getText().isEmpty()) {
-            mgf.setberat (0);
+            mgf.setBerat(0);
         } else {
-            mgf.setberat(Double.parseDouble(tBerat.getText()));
+            mgf.setBerat(Double.parseDouble(tBerat.getText()));
         }
         if (tHarga.getText().isEmpty()) {
-            mgf.setharga(0);
+            mgf.setHarga(0);
         } else {
-            mgf.setharga(Double.parseDouble(tHarga.getText()));
+            mgf.setHarga(Double.parseDouble(tHarga.getText()));
         }
         
         tNB1.setText(mgf.getnama_buah());
-        tWarna1.setText(mgf.getwarna());
-        tRasa1.setText(mgf.getrasa());
-        tBerat1.setText(String.valueOf(mgf.getberat()));
-        tHarga1.setText(String.valueOf(mgf.getharga()));
+        tWarna1.setText(mgf.getWarna());
+        tRasa1.setText(mgf.getRasa());
+        tBerat1.setText(String.valueOf(mgf.getBerat()));
+        tHarga1.setText(String.valueOf(mgf.getHarga()));
         
         if (radioYa.isSelected()) {
             tKulit.setText("Bisa dimakan");
@@ -399,7 +399,5 @@ public class ManggaFrame extends javax.swing.JFrame {
     private javax.swing.JTextField tWarna1;
     // End of variables declaration//GEN-END:variables
 
-    private cherlyMangga cherlyMangga() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    
 }

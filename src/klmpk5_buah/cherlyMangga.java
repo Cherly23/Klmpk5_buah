@@ -14,7 +14,7 @@ public class cherlyMangga extends Buah_Class {
     
     
     public String getnama_buah(){
-        return this.nama_buah;
+        return this.nama_buah; 
     }
     
     public void TampilBuah (){
