@@ -239,7 +239,7 @@ public class ApelFrame extends javax.swing.JFrame {
         TBerat.setFont(new java.awt.Font("Poppins", 3, 17)); // NOI18N
         TBerat.setForeground(new java.awt.Color(255, 255, 255));
         TBerat.setText("BERAT ");
-        getContentPane().add(TBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 10, 60, -1));
+        getContentPane().add(TBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, 90, -1));
 
         THarga.setFont(new java.awt.Font("Poppins", 3, 15)); // NOI18N
         THarga.setForeground(new java.awt.Color(255, 255, 255));
