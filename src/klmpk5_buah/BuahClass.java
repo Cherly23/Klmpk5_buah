@@ -8,7 +8,7 @@ package klmpk5_buah;
  *
  * @author cherly
  */
-public class Buah_Class2 {
+public class BuahClass {
     String  rasa, warna;
     boolean kulit;
     double harga, berat;
