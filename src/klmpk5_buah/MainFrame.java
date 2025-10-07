@@ -112,7 +112,8 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void tApelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tApelActionPerformed
         // TODO add your handling code here:
-       
+       this.dispose();
+       new ApelFrame().setVisible(true);
     }//GEN-LAST:event_tApelActionPerformed
 
     private void tManggisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tManggisActionPerformed
