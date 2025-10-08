@@ -19,7 +19,7 @@ public class cherlyMangga extends BuahClass {
     
     public void TampilBuah (){
         System.out.println("Nama Buah          : " + this.nama_buah);
-        System.out.println("Rasa Buah          : " + super.rasa);
+        System.out.println("Rasa Buah          : " + super.rasa );
         System.out.println("Warna Buah         : " + super.warna);
         System.out.println("Harga Buah         : " + super.harga);
         System.out.println("Berat Buah         : " + super.berat);

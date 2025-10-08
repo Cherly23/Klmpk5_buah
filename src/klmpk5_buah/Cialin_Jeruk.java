@@ -48,4 +48,6 @@ public class Cialin_Jeruk {
     public boolean getkulit (){
         return this.kulit;
     }
+    
+    
 }
