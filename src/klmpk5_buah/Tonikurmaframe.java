@@ -331,8 +331,7 @@ public class Tonikurmaframe extends javax.swing.JFrame {
             krf.setHarga(0);
         }else{
             krf.setHarga(Double.parseDouble(tHarga.getText()));
-        }
-            
+        }    
         
         tNamabuah1.setText(krf.getNamaBuah());
         twarna1.setText(krf.getWarna());
