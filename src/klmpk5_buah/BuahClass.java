@@ -4,10 +4,7 @@
  */
 package klmpk5_buah;
 
-/**
- *
- * @author cherly
- */
+
 public class BuahClass {
     String  rasa, warna;
     boolean kulit;
