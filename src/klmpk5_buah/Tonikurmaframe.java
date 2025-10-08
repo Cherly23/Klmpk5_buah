@@ -10,9 +10,7 @@ package klmpk5_buah;
  */
 public class Tonikurmaframe extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Tonikurmaframe
-     */
+
     public Tonikurmaframe() {
         initComponents();
     }
