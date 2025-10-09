@@ -8,44 +8,22 @@ package klmpk5_buah;
  *
  * @author ThinkPad
  */
-public class Cialin_Jeruk {
-    String nama_buah, warna, rasa;
-    double harga, berat;
-    boolean kulit;
+public class Cialin_Jeruk extends BuahClass{
+    String nama_buah;
+    
     public  void  setnama_buah(String nb){
         this.nama_buah = nb;
     }
-    public  void  setwarna(String wrn){
-        this.warna = wrn;
-    }
-    public  void  setrasa(String rs){
-        this.rasa = rs;
-    }
-    public  void  setharga(double hrg){
-        this.harga = hrg;
-    }
-    public  void  setberat(double brt){
-        this.berat = brt;
-    }
-    public void setkulit (boolean klt){
-        this.kulit = klt;
-    }
+    
     public String getnama_buah(){
         return this.nama_buah;
     }
-    public String getwarna(){
-    return this.warna;
-}
-    public String getrasa(){
-        return this.rasa;
+    public void  tampil1(){
+        System.out.println("Nama Buah \t: " + this.nama_buah);
+        System.out.println("Rasa Buah : " + super.rasa);
+        System.out.println("Warna Buah : " + super.warna);
+        System.out.println("Harga Buah : " + super.harga);
+        System.out.println("Berat Buah : " + super.berat);
+        System.out.println("Kulit Bisa dimakan : " + super.kulit);
     }
-    public double getharga(){
-        return this.harga;
     }
-    public double getberat(){
-        return this.berat;
-    }
-    public boolean getkulit (){
-        return this.kulit;
-    }
-}
