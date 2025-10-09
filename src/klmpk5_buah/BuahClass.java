@@ -49,4 +49,6 @@ public class BuahClass {
     public void setBerat(double berat) {
         this.berat = berat;
     }
+    
+    
 }
