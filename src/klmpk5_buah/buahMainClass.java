@@ -12,11 +12,11 @@ public class buahMainClass {
     public static void main(String[] args) {
         AZKA_APEL apel = new AZKA_APEL();
         apel.setnama_buah("Apel Afrika");
-        apel.setharga(20000);
-        apel.setberat(2);
-        apel.setwarna("merah");
-        apel.setrasa("Manis");
-        apel.setkulit(true);
+        apel.setHarga(20000);
+        apel.setBerat(2);
+        apel.setWarna("merah");
+        apel.setRasa("Manis");
+        apel.setKulit(true);
 //        apel.tampil();
         
         Cialin_Jeruk jeruk = new Cialin_Jeruk();

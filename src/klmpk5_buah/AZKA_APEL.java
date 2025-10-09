@@ -1,47 +1,24 @@
 package klmpk5_buah;
 
-public class AZKA_APEL {
-    private String nama_buah, rasa, warna;
-    boolean kulit;
-    double harga, berat;
+public class AZKA_APEL extends BuahClass {
+    String nama_buah ;
     
-  
-    public void setnama_buah(String nb){
-        this.nama_buah = nb;
+    public void setnama_buah(String na) {
+        this.nama_buah = na ;
     }
     public String getnama_buah(){
-        return this.nama_buah;
+        return this.nama_buah; 
     }
-    public void setrasa(String sr){
-        this.rasa = sr; 
-    }
-    public String getrasa(){
-        return this.rasa;
-    }
-    public String getwarna(){
-        return this.warna;    
-    }
-    public void setwarna(String wr){
-        this.warna = wr;
-    }
-    public void setkulit(boolean kl){
-        this.kulit = kl;
-    }
-    public boolean getkulit(){
-        return this.kulit;
-    }
-    public void setharga(double hrg){
-        this.harga = hrg;
-    }
-    public double getharga(){
-        return this.harga;
-    }
-    public void setberat(double brt){
-        this.berat = brt;
-    }
-    public double getberat() {
-        return this.berat;
-    }
+    public void TampilBuah (){
+        System.out.println("Nama Buah          : " + this.nama_buah);
+        System.out.println("Rasa Buah          : " + super.rasa );
+        System.out.println("Warna Buah         : " + super.warna);
+        System.out.println("Harga Buah         : " + super.harga);
+        System.out.println("Berat Buah         : " + super.berat);
+        System.out.println("Kulit Bisa Dimakan : " + super.kulit);
+    }  
+   
+   
     
    
 }

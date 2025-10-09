@@ -352,33 +352,33 @@ public class ApelFrame extends javax.swing.JFrame {
                 apf.setnama_buah(TnamaBuah.getText());
             }
             if (Twarna.getText().isEmpty()) {
-                apf.setwarna("Tidak Diketahui");
+                apf.setWarna("Tidak Diketahui");
             } else {
-                apf.setwarna(Twarna.getText());
+                apf.setWarna(Twarna.getText());
             }
             if (Trasa.getText().isEmpty()) {
-                apf.setrasa("Tidak Diketahui");
+                apf.setRasa("Tidak Diketahui");
             } else {
-                apf.setrasa(Trasa.getText());
+                apf.setRasa(Trasa.getText());
             }
             if (Tberat.getText().isEmpty()) {
-                apf.setberat(0);
+                apf.setBerat(0);
             } else {
-                apf.setberat(Double.parseDouble(Tberat.getText()));
+                apf.setBerat(Double.parseDouble(Tberat.getText()));
             }
             if (Tharga.getText().isEmpty()) {
-                apf.setharga(0);
+                apf.setHarga(0);
             } else {
-                apf.setharga(Double.parseDouble(Tharga.getText()));
+                apf.setHarga(Double.parseDouble(Tharga.getText()));
             }
             
             
             
             Onamabuah.setText(apf.getnama_buah());
-            Owarna.setText(apf.getwarna());
-            Orasa.setText(apf.getrasa());
-            Oharga.setText(String.valueOf(apf.getharga()));
-            Oberat.setText(String.valueOf(apf.getberat()));
+            Owarna.setText(apf.getWarna());
+            Orasa.setText(apf.getRasa());
+            Oharga.setText(String.valueOf(apf.getHarga()));
+            Oberat.setText(String.valueOf(apf.getBerat()));
   
             if (RadioYa.isSelected()) {
                 Okulit.setText("YA, Bisa Dimakan");
