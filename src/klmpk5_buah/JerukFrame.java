@@ -300,24 +300,24 @@ public class JerukFrame extends javax.swing.JFrame {
 }
         
         if (TWarna.getText().isEmpty()) {
-                Jerr.setwarna("Tidak Diketahui");
+                Jerr.setWarna("Tidak Diketahui");
             } else {
-                Jerr.setwarna(TWarna.getText());
+                Jerr.setWarna(TWarna.getText());
             }
             if (TRasa.getText().isEmpty()) {
-                Jerr.setrasa("Tidak Diketahui");
+                Jerr.setRasa("Tidak Diketahui");
             } else {
-                Jerr.setrasa(TRasa.getText());
+                Jerr.setRasa(TRasa.getText());
             }
             if (TBerat.getText().isEmpty()) {
-                Jerr.setberat(0);
+                Jerr.setBerat(0);
             } else {
-                Jerr.setberat(Double.parseDouble(TBerat.getText()));
+                Jerr.setBerat(Double.parseDouble(TBerat.getText()));
             }
             if (THarga.getText().isEmpty()) {
-                Jerr.setharga(0);
+                Jerr.setHarga(0);
             } else {
-                Jerr.setharga(Double.parseDouble(THarga.getText()));
+                Jerr.setHarga(Double.parseDouble(THarga.getText()));
             }
 
         
@@ -325,10 +325,10 @@ public class JerukFrame extends javax.swing.JFrame {
         
 
         Tnamabuah1.setText(Jerr.getnama_buah());
-        Twarna1.setText(Jerr.getwarna());
-        Trasa1.setText(Jerr.getrasa());
-        THarga1.setText(String.valueOf(Jerr.getharga()));
-        TBerat1.setText(String.valueOf(Jerr.getberat()));
+        Twarna1.setText(Jerr.getWarna());
+        Trasa1.setText(Jerr.getRasa());
+        THarga1.setText(String.valueOf(Jerr.getHarga()));
+        TBerat1.setText(String.valueOf(Jerr.getBerat()));
         
         if (RadioYa.isSelected()) {
             Tkulit1.setText("Ya, Bisa dimakan"); 

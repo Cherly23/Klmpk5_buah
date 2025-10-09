@@ -21,6 +21,7 @@ public class buahMainClass {
 
 
         cherlyMangga mgn = new cherlyMangga();
+        System.out.println("\n=============== MANGGA ===============");
         mgn.setnama_buah("Mangga");
         mgn.setWarna("Kuning");
         mgn.setRasa("Manis");
@@ -28,15 +29,18 @@ public class buahMainClass {
         mgn.setBerat(15.4);
         mgn.setKulit(false);
         mgn.TampilBuah();
-     
+        System.out.println("======================================\n");
         
         Cialin_Jeruk jerr = new Cialin_Jeruk();
+        System.out.println("\n=============== JERUK ================");
         jerr.setnama_buah("Jeruk");
-        jerr.setwarna("Kuning");
-        jerr.setrasa("Manis");
-        jerr.setharga(30000);
-        jerr.setberat(15.4);
-        jerr.setkulit(false);
+        jerr.setWarna("Kuning");
+        jerr.setRasa("Manis");
+        jerr.setHarga(10000);
+        jerr.setBerat(9.4);
+        jerr.setKulit(false);
+        jerr.tampil1();
+        System.out.println("=======================================\n");
         
         Toni_Kurma kurma = new Toni_Kurma();
         kurma.setNamaBuah("Kurma");
