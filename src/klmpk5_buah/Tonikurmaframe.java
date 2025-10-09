@@ -207,7 +207,7 @@ public class Tonikurmaframe extends javax.swing.JFrame {
                 tBeratActionPerformed(evt);
             }
         });
-<<<<<<< Upstream, based on origin/master
+
         getContentPane().add(tBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 110, 162, -1));
 
         tHarga.addActionListener(new java.awt.event.ActionListener() {
@@ -216,10 +216,8 @@ public class Tonikurmaframe extends javax.swing.JFrame {
             }
         });
         getContentPane().add(tHarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 150, 162, -1));
-=======
-        getContentPane().add(tBerat, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 180, 162, -1));
         getContentPane().add(tHarga, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 150, 162, -1));
->>>>>>> f0b471e Toni_Kurma5
+
 
         bTampil.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         bTampil.setText("Tampil");
