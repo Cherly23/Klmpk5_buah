@@ -11,14 +11,15 @@ package klmpk5_buah;
 public class buahMainClass {
     public static void main(String[] args) {
         AZKA_APEL apel = new AZKA_APEL();
+        System.out.println("\n=============== APEL =================");
         apel.setnama_buah("Apel Afrika");
         apel.setHarga(20000);
         apel.setBerat(2);
         apel.setWarna("merah");
         apel.setRasa("Manis");
         apel.setKulit(true);
-//        apel.tampil();
-
+        apel.TampilBuah();
+        System.out.println("======================================\n");
 
         cherlyMangga mgn = new cherlyMangga();
         System.out.println("\n=============== MANGGA ===============");
@@ -40,7 +41,7 @@ public class buahMainClass {
         jerr.setBerat(9.4);
         jerr.setKulit(false);
         jerr.tampil1();
-        System.out.println("=======================================\n");
+        System.out.println("======================================\n");
         
         Toni_Kurma kurma = new Toni_Kurma();
         System.out.println("\n=============== KURMA =================");
