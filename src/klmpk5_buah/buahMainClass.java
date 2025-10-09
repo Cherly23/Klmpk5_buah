@@ -43,12 +43,15 @@ public class buahMainClass {
         System.out.println("=======================================\n");
         
         Toni_Kurma kurma = new Toni_Kurma();
+        System.out.println("\n=============== KURMA =================");
         kurma.setNamaBuah("Kurma");
         kurma.setWarna("Coklat");
         kurma.setRasa("Manis");
         kurma.setHarga(30000);
         kurma.setBerat(15.4);
         kurma.setKulit(false);
+        kurma.TampilBuah();
+        System.out.println("=======================================\n");
         
         Ichul_Manggis manggis = new Ichul_Manggis();
         manggis.setnama_buah("Manggis");
