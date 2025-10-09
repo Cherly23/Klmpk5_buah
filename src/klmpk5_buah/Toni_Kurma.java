@@ -1,5 +1,5 @@
 package klmpk5_buah;
-public class Toni_Kurma extends Buah_Class2 {
+public class Toni_Kurma extends BuahClass {
     String nama_Buah;
     
     public void setNamaBuah(String namaBuah) {
@@ -19,5 +19,6 @@ public class Toni_Kurma extends Buah_Class2 {
        System.out.println("Berat Buah         : " + super.berat);
        System.out.println("Kulik Bisa DImakan : " + super.kulit);
    }
+     
 }
 
