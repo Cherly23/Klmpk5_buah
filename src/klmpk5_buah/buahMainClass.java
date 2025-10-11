@@ -44,7 +44,7 @@ public class buahMainClass {
         System.out.println("======================================\n");
         
         Toni_Kurma kurma = new Toni_Kurma();
-        System.out.println("\n=============== KURMA =================");
+        System.out.println("\n=============== KURMA ================");
         kurma.setNamaBuah("Kurma");
         kurma.setWarna("Coklat");
         kurma.setRasa("Manis");
@@ -52,15 +52,18 @@ public class buahMainClass {
         kurma.setBerat(15.4);
         kurma.setKulit(false);
         kurma.TampilBuah();
-        System.out.println("=======================================\n");
+        System.out.println("======================================\n");
         
         Ichul_Manggis manggis = new Ichul_Manggis();
+        System.out.println("\n=============== MANGGIS ==============");
         manggis.setnama_buah("Manggis");
-        manggis.setwarna("Ungu");
-        manggis.setrasa("Manis");
-        manggis.setharga(30000);
-        manggis.setberat(15.4);
-        manggis.setkulit(false);
+        manggis.setWarna("Ungu");
+        manggis.setRasa("Manis");
+        manggis.setHarga(30000);
+        manggis.setBerat(15.4);
+        manggis.setKulit(false);
+        manggis.TampilBuah();
+        System.out.println("======================================\n");
         
         Aziz_Nanas nns = new Aziz_Nanas();
         nns.setNama_buah("Nanas");

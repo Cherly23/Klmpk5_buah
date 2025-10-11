@@ -305,24 +305,24 @@ public class ManggisFrame extends javax.swing.JFrame {
             mgs.setnama_buah(tNamaBuah.getText());
         }
         if (tWarnaBuah.getText().isEmpty()){
-            mgs.setwarna("Tidak diketahui");
+            mgs.setWarna("Tidak diketahui");
         } else {
-            mgs.setwarna(tWarnaBuah.getText());
+            mgs.setWarna(tWarnaBuah.getText());
         }
         if (tRasa.getText().isEmpty()){
-            mgs.setrasa("Tidak diketahui");
+            mgs.setRasa("Tidak diketahui");
         }else {
-            mgs.setrasa(tRasa.getText());
+            mgs.setRasa(tRasa.getText());
         }
         if (tBerat.getText().isEmpty()){
-            mgs.setberat(0);
+            mgs.setBerat(0);
         }else {
-            mgs.setberat(Double.parseDouble(tBerat.getText()));
+            mgs.setBerat(Double.parseDouble(tBerat.getText()));
         }
         if (tHarga.getText().isEmpty()){
-            mgs.setharga(0);
+            mgs.setHarga(0);
         }else {
-            mgs.setharga(Double.parseDouble(tHarga.getText()));
+            mgs.setHarga(Double.parseDouble(tHarga.getText()));
         }
         
         if (jRadioButtonYa.isSelected()){
@@ -334,10 +334,10 @@ public class ManggisFrame extends javax.swing.JFrame {
         }
         
         tNamaBuah1.setText(mgs.getnama_buah());
-        tWarnaBuah1.setText(mgs.getwarna());
-        tRasa1.setText(mgs.getrasa());
-        tBerat1.setText(String.valueOf(mgs.getberat()));
-        tHarga1.setText(String.valueOf(mgs.getharga()));
+        tWarnaBuah1.setText(mgs.getWarna());
+        tRasa1.setText(mgs.getRasa());
+        tBerat1.setText(String.valueOf(mgs.getBerat()));
+        tHarga1.setText(String.valueOf(mgs.getHarga()));
     }//GEN-LAST:event_jTampilActionPerformed
 
     /**
